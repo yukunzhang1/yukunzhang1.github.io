@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "yukun.zhang"
-description              : "Research scientist in TikTok, Data-Speech Dept. Focusing on speech, NLP and music."
+description              : "data scientist in Tiktok."
 repository               : "yukunzhang1/yukunzhang1.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Yi Ren (任意)"
+  name             : "yukun.zhang"
   avatar           : "images/ry_profile.jpeg"
   bio              : "TikTok"
   location         : "Singapore"
