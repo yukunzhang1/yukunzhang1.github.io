@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "yukun.zhang(任意)"
+title                    : "yukun.zhang"
 description              : "Research scientist in TikTok, Data-Speech Dept. Focusing on speech, NLP and music."
-repository               : "rayeren/rayeren.github.io"
+repository               : "yukunzhang1/yukunzhang1.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
