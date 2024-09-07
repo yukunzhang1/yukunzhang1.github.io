@@ -1,6 +1,6 @@
-# 🔥 News
-- *2024.03*: 🎉 Two papers are accepted by ICLR 2024
-- *2023.05*: 🎉 Five papers are accepted by ACL 2023
-- *2023.01*: DiffSinger was introduced in [a very popular video](https://www.bilibili.com/video/BV1uM411t7ZJ) (2000k+ views) in Bilibili!
-- *2023.01*: I join TikTok <img src='./images/tiktok.png' style='width: 6em;'> as a speech research scientist in Singapore!
-- *2022.02*: I release a modern and responsive academic personal [homepage template](https://github.com/RayeRen/acad-homepage.github.io). Welcome to STAR and FORK!
+# 🔥 WORKING EXPERIENCE 
+- *2022.04-now *: Data Science Manager in Tiktok,focus on Responsible AI such as algorithm fairness and LLM evaluation,develop interpretable machine learning product 
+- *2020.1-2022.4*: Data Science Manager in Alibaba,focus on online pricing strategies and causal inference platform (including AB test),
+- *2017.07-2019.11*: Data Mining In JingDong, focus on revenue management and dynamic pricing on Internet
+- *2016.07-2017.07*: Research Assistant in The Chinese University of Hong Kong,focus on machine learning in finance
+- *2016.07*: I release a modern and responsive academic personal [homepage template](https://github.com/RayeRen/acad-homepage.github.io). Welcome to STAR and FORK!
