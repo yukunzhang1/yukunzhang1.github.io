@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+I am a senior data scientist in Tiktok based in dublin 
+
 <span class='anchor' id='about-me'></span>
 {% include_relative includes/intro.md %}
 
