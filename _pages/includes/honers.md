@@ -7,23 +7,15 @@
 
 - Third Prize, International Mathematical Contest in Modeling, 2014  
 
-- Member, Wenlan National Excellent Students Summer Camp, 2014  
-
 - Second Prize, China Undergraduate Mathematical Contest in Modeling, 2013  
-
-- Third Prize, Certificate Authority Cup International Mathematical Contest in Modeling, 2013  
 
 - Third Prize, National English Competition for College Students, 2012  
 
 - Economic Science Press Scholarship, x, 2012  
 
-- Bester Debater, Debate Competition, Shandong University of Finance and Economics, 2012  
-
 - Best Delegate, Model United Nations and Bohai Costal, 2012  
 
-- Coordination and Teamwork Award, Model United Nations Conference of Shandong University, 2012  
-
-- Third Prize in Teamwork, Research of Credit Management in Shandong Province, 2012  
+- Coordination and Teamwork Award, Model United Nations Conference of Shandong University, 2012 
 
 - Best Negotiator, Simulation Business Negotiation Contest in College, 2012  
 
