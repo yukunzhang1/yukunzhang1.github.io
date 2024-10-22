@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "yukun.zhang"
-description              : "data scientist in Tiktok."
+description              : "Senior Data Scientist."
 repository               : "yukunzhang1/yukunzhang1.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  : code-ZxFK3f4pfb
 author:
   name             : "yukun.zhang"
   avatar           : "images/yukun zhang.png"
-  bio              : "TikTok"
-  location         : "Dublin"
+  bio              : "Alipay"
+  location         : "Shanghai"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=w8XKACEAAAAJ&hl=en"
