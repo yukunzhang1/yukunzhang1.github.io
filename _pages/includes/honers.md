@@ -1,5 +1,6 @@
 
 - # 🏆 Honors and Awards
+- Alibaba Best Technical Article Award, 2022
 
 - Third Prize, National Post-Graduate Mathematical Contest in Modeling, 2015  
 
