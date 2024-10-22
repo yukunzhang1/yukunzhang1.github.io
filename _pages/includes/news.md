@@ -1,7 +1,9 @@
 
 # 🔥 WORKING EXPERIENCE 
 
-- **2022.04 - Present**: Data Science Manager at TikTok. Focus on Responsible AI (algorithm fairness, LLM evaluation), develop interpretable machine learning products.
+- **2024.11 - now**: Lead data team at Alipay. Focus on the alignment and interpretability of large language models (LLMs).
+  
+- **2022.04 - 2024.10**: Data Science Manager at TikTok. Focus on Responsible AI (algorithm fairness, LLM evaluation), develop interpretable machine learning products.
 
 - **2020.01 - 2022.04**: Data Science Manager at Alibaba. Focus on online pricing strategies, develop causal inference platform (including AB testing).
 
