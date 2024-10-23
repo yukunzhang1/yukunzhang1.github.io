@@ -21,9 +21,8 @@
 2. [Exploring the Head Effect in Live Streaming Platforms: A Two-Sided Market and Welfare Analysis](https://arxiv.org/abs/2410.13090)  
    **YUKUN ZHANG**, Forthcoming to THE WEB CONFERENCE 2025
 
-3. The Social Cost of Growth: Evaluating GMV-Centric and Welfare-Centric Strategies in Online Food Delivery Platforms  
+3. [The Social Cost of Growth: Evaluating GMV-Centric and Welfare-Centric Strategies in Online Food Delivery Platforms](https://arxiv.org/abs/2410.16566)  
    **YUKUN ZHANG**, Forthcoming to THE WEB CONFERENCE 2025
-
 
 
 ## 🎙 Other Conference Papers and Presentations
