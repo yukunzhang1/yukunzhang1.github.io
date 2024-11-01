@@ -1,4 +1,4 @@
-I will join Alipay <img src='./images/alipay1.png' style='width: 6em;'> ,lead data team to support the alignment and interpretability of large language models (LLMs) in Nov 1st .I currently work at TikTok <img src='./images/Tiktok.png' style='width: 6em;'> as a senior data scientist now in Dublin;
+I currently worked in  Alipay <img src='./images/alipay1.png' style='width: 6em;'> ,lead data team to support the alignment and interpretability of large language models (LLMs)  .before I  worked at TikTok <img src='./images/Tiktok.png' style='width: 6em;'> as a senior data scientist in Dublin,ireland;
 
 I graduated from The Chinese University of Hong Kong with a master's degree, advised by [Duan Li (李端)](https://www1.se.cuhk.edu.hk/~dli/) and [Nan Chen (陈南)](https://www1.se.cuhk.edu.hk/~nchenweb/), and from The Shandong University of Finance and Economics with double bachelor degrees, advised by [Jianhua Ma (马建华)](https://gkgc.sdufe.edu.cn/info/1117/7102.htm) and [Jing Zhang (张晶)](https://jinrong.sdufe.edu.cn/info/1162/4587.htm).
 
