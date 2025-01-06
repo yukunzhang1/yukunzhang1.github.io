@@ -5,13 +5,13 @@
 ## 🎙 Interpretable Machine Learning
 
 1. [A Unified Framework for Interpretable Transformers Using PDEs and Information Theory](https://arxiv.org/pdf/2408.09523)  
-   **YUKUN ZHANG**, forthcoming to 2025 AAAI special Track: AI Alignment
+ 
 
 2. [Unraveling Text Generation in LLMs: A Stochastic Differential Equation Approach](https://arxiv.org/pdf/2408.11863)  
-   **YUKUN ZHANG**, forthcoming to 2025 AAAI special Track: AI Alignment
+
 
 3. [Unveiling LLM Mechanisms Through Neural ODEs and Control Theory](https://arxiv.org/pdf/2406.16985)  
-   **YUKUN ZHANG**, forthcoming to 2025 AAAI special Track: AI Alignment
+ 
 
 ## 🌐 Digital Economy
 
