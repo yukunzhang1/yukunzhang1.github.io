@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "yukun.zhang"
-description              : "Data Specialist Leader (LLM)."
+description              : "LLM Data Leader."
 repository               : "yukunzhang1/yukunzhang1.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  : code-ZxFK3f4pfb
 author:
   name             : "yukun.zhang"
   avatar           : "images/yukun zhang.png"
-  bio              : "Alipay"
+  bio              : "Alibaba"
   location         : "Shanghai"
   employer         :
   pubmed           : 
