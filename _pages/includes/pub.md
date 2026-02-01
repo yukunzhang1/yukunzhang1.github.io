@@ -40,14 +40,30 @@ A unified economic framework spanning macro dynamics, market structures, and inf
    *CADE 2025*
 
 
-## 📝 Explainable AI 
+### AI Interpretability & Model Architecture
 
-1. [Unveiling LLM Mechanisms Through Neural ODEs and Control Theory](https://arxiv.org/abs/2406.16985) 
-   **YUKUN ZHANG**
-1. [A Unified Framework for Interpretable Transformers Using PDEs and Information Theory](https://arxiv.org/abs/2408.09523) 
-   **YUKUN ZHANG**
-2. [Unraveling Text Generation in LLMs: A Stochastic Differential Equation Approach](https://arxiv.org/abs/2408.11863)
-   **YUKUN ZHANG**
+
+
+1. **Continuous-Time Attention: PDE-Guided Mechanisms for Long-Sequence Transformers**
+   [![ACL Anthology](https://img.shields.io/badge/ACL%20Anthology-EMNLP%202025-blue.svg)](https://aclanthology.org/2025.emnlp-main.1097.pdf)
+   [![Project](https://img.shields.io/badge/Project-Page-green.svg)](https://xueqingzhou.github.io/Continuous-Time-Attention/)
+   *EMNLP 2025*
+
+2. **PDE-Transformer: A Continuous Dynamical Systems Approach to Sequence Modeling**
+   [![arXiv](https://img.shields.io/badge/arXiv-2510.03272-b31b1b.svg)](https://arxiv.org/abs/2510.03272)
+   *Forthcoming*
+
+3. **Multi-Scale Probabilistic Generation Theory: A Unified Information-Theoretic Framework for Hierarchical Structure in Large Language Models**
+   [![arXiv](https://img.shields.io/badge/arXiv-2505.18244-b31b1b.svg)](https://arxiv.org/abs/2505.18244)
+   *Forthcoming*
+
+4. **Hierarchical Alignment: Surgical Fine-Tuning via Functional Layer Specialization in Large Language Models**
+   [![arXiv](https://img.shields.io/badge/arXiv-2510.12044-b31b1b.svg)](https://arxiv.org/abs/2510.12044)
+   *Forthcoming*
+
+5. **Empirical Investigation of Latent Representational Dynamics in Large Language Models: A Manifold Evolution Perspective**
+   [![arXiv](https://img.shields.io/badge/arXiv-2505.20340-b31b1b.svg)](https://arxiv.org/abs/2505.20340)
+   *Forthcoming*
 
 
 
