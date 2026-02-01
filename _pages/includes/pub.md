@@ -6,7 +6,7 @@
 A unified economic framework spanning macro dynamics, market structures, and information contracts in the age of Generative AI.
 
 1. **The Economics of Digital Intelligence Capital: Endogenous Depreciation and the Structural Jevons Paradox**
-   [![arXiv](https://img.shields.io/badge/arXiv-2601.12339-b31b1b.svg)](https://arxiv.org/abs/2601.12339
+   [![arXiv](https://img.shields.io/badge/arXiv-2601.12339-b31b1b.svg)](https://arxiv.org/abs/2601.12339)
    *Working Paper*
 
 2. **Beyond Private or Public: Large Language Models as Quasi-Public Goods**
