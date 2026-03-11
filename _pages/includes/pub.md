@@ -54,7 +54,7 @@ A unified economic framework spanning macro dynamics, market structures, and inf
    *Forthcoming ICML*
 
 3. **How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning**
-[![arXiv](https://img.shields.io/badge/arXiv-2602.15580-b31b1b.svg)](https://arxiv.org/abs/2602.15580)
+  [![arXiv](https://img.shields.io/badge/arXiv-2602.15580-b31b1b.svg)](https://arxiv.org/abs/2602.15580)
     *Forthcoming ICML*   
 
 5. **Multi-Scale Probabilistic Generation Theory: A Unified Information-Theoretic Framework for Hierarchical Structure in Large Language Models**
