@@ -1,21 +1,12 @@
 
 # 📝 Publications and Papers 
 
-### AI Agent Economics &ensp;[![Series Homepage](https://img.shields.io/badge/Series-Homepage-181717?logo=github)](https://crewmoon.github.io/ai-agent-economics/)
+<span id="ai-agent-economics"></span>
+### [AI Agent Economics]({{ '/research/ai-agent-economics/' | relative_url }})
 
-A four-paper research series on delegation rights, the organization of AI production, execution control, and social welfare.
+From delegation rights to social welfare: four connected papers on authorization, AI production, execution control, and public policy.
 
-1. **Delegation Rights: Property, Agency, and Investment Incentives in the Age of AI Agents**
-   [![arXiv](https://img.shields.io/badge/arXiv-2606.31935-b31b1b.svg)](https://arxiv.org/abs/2606.31935)
-
-2. **The Organization of Inference: Information, Resource Constraints, and AI Production**
-   [![arXiv](https://img.shields.io/badge/arXiv-2609.20449-b31b1b.svg)](https://arxiv.org/abs/2609.20449)
-
-3. **How Do Agent Harnesses Create Value? Planning Information and Release Control in Stateful LLM Agents**
-   [![arXiv](https://img.shields.io/badge/arXiv-2609.20474-b31b1b.svg)](https://arxiv.org/abs/2609.20474)
-
-4. **Welfare-Opaque Income: Taxation under AI-Agent Delegation**
-   [![arXiv](https://img.shields.io/badge/arXiv-2609.20425-b31b1b.svg)](https://arxiv.org/abs/2609.20425)
+[Explore the research series →]({{ '/research/ai-agent-economics/' | relative_url }}) · [Original series website](https://crewmoon.github.io/ai-agent-economics/)
 
 ### AI Economy Series &ensp;[![GitHub](https://img.shields.io/badge/Series%20Repo-GitHub-181717?logo=github)](https://github.com/yukunzhang1/Generative-AI-Economic-Series/)
 
