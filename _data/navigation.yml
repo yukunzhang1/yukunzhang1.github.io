@@ -3,7 +3,7 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "AI Economics"
+  - title: "Generative AI Economics"
     url: "/research/ai-economics/"
 
   - title: "AI Agent Economics"
@@ -26,3 +26,4 @@ main:
 
   - title: "Internships"
     url: "/#-internships"
+

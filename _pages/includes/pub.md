@@ -11,11 +11,11 @@ From delegation rights to social welfare: four connected papers on authorization
 
 <span id="ai-economics"></span>
 <span id="ai-economy-series-"></span>
-### [AI Economics]({{ '/research/ai-economics/' | relative_url }})
+### [Generative AI Economics]({{ '/research/ai-economics/' | relative_url }})
 
 Capital, markets, and information: seven papers on how generative AI changes production, market organization, and economic incentives.
 
-[Explore the research series →]({{ '/research/ai-economics/' | relative_url }}) · [Repository & materials](https://github.com/yukunzhang1/Generative-AI-Economic-Series/)
+[Explore the research series →]({{ '/research/ai-economics/' | relative_url }}) · [Original series website]({{ '/Generative-AI-Economic-Series/' | relative_url }})
 
 ### Other Economics Research
 
@@ -50,3 +50,4 @@ Capital, markets, and information: seven papers on how generative AI changes pro
 
 7. **Empirical Investigation of Latent Representational Dynamics in Large Language Models: A Manifold Evolution Perspective**
    [![arXiv](https://img.shields.io/badge/arXiv-2505.20340-b31b1b.svg)](https://arxiv.org/abs/2505.20340)
+
