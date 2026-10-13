@@ -1,34 +1,30 @@
+<section id="publications" class="publications" aria-labelledby="publications-title">
+  <h1 id="publications-title">Publications</h1>
 
-<span id="publications"></span>
-# 📝 Publications and Papers 
+  <div class="publications__series" aria-label="Research series">
+    <article id="ai-economics" class="publications__row">
+      <span id="ai-economy-series-" class="publications__anchor" aria-hidden="true"></span>
+      <h2><a href="{{ '/Generative-AI-Economic-Series/' | relative_url }}">Generative AI Economics <span aria-hidden="true">↗</span></a></h2>
+      <p>Seven papers on capital, markets, and information in the generative AI economy.</p>
+    </article>
 
-<span id="ai-agent-economics"></span>
-### [AI Agent Economics](https://crewmoon.github.io/ai-agent-economics/)
+    <article id="ai-agent-economics" class="publications__row">
+      <h2><a href="https://crewmoon.github.io/ai-agent-economics/">AI Agent Economics <span aria-hidden="true">↗</span></a></h2>
+      <p>Four papers on delegation rights, AI production, execution control, and social welfare.</p>
+    </article>
 
-From delegation rights to social welfare: four connected papers on authorization, AI production, execution control, and public policy.
+    <article id="llm-paper-series" class="publications__row">
+      <span id="ai-interpretability--model-architecture" class="publications__anchor" aria-hidden="true"></span>
+      <h2><a href="{{ '/research/llm-paper-series/' | relative_url }}">LLM Paper Series <span aria-hidden="true">↗</span></a></h2>
+      <p>Seven papers on language model learning, architecture, interpretability, and alignment.</p>
+    </article>
+  </div>
 
-[Explore the research series →](https://crewmoon.github.io/ai-agent-economics/)
-
-<span id="ai-economics"></span>
-<span id="ai-economy-series-"></span>
-### [Generative AI Economics]({{ '/Generative-AI-Economic-Series/' | relative_url }})
-
-Capital, markets, and information: seven papers on how generative AI changes production, market organization, and economic incentives.
-
-[Explore the research series →]({{ '/Generative-AI-Economic-Series/' | relative_url }})
-
-<span id="llm-paper-series"></span>
-<span id="ai-interpretability--model-architecture"></span>
-### [LLM Paper Series]({{ '/research/llm-paper-series/' | relative_url }})
-
-Learning, architecture, interpretability, and alignment: seven papers on understanding and improving language models.
-
-[Explore the paper series →]({{ '/research/llm-paper-series/' | relative_url }})
-
-### Other Economics Research
-
-1. **Revenue vs. Welfare: A Comprehensive Analysis of Strategic Trade-offs in Online Food Delivery Systems**
-   [![arXiv](https://img.shields.io/badge/arXiv-2410.16566-b31b1b.svg)](https://arxiv.org/abs/2410.16566)
-   [![IET](https://img.shields.io/badge/IET-10.1049-blue.svg)](https://digital-library.theiet.org/doi/abs/10.1049/icp.2025.2957)
-   *CADE 2025*
-
+  <div class="publications__other">
+    <h2>Other Economics Research</h2>
+    <article class="publications__paper">
+      <h3>Revenue vs. Welfare: A Comprehensive Analysis of Strategic Trade-offs in Online Food Delivery Systems</h3>
+      <p class="publications__links"><span class="publications__venue">CADE 2025</span><span aria-hidden="true">·</span><a href="https://arxiv.org/abs/2410.16566">arXiv</a><span aria-hidden="true">·</span><a href="https://digital-library.theiet.org/doi/abs/10.1049/icp.2025.2957">Published version</a></p>
+    </article>
+  </div>
+</section>

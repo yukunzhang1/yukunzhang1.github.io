@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+publications_styles: true
 redirect_from: 
   - /about/
   - /about.html

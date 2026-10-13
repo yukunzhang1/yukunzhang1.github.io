@@ -1,0 +1,110 @@
+/* Homepage research directory. Keep all rules scoped to this section. */
+.page__content .publications {
+  margin: 1.8rem 0 2rem;
+  scroll-margin-top: 5rem;
+}
+
+.page__content .publications > h1 {
+  margin: 0;
+  padding-bottom: .65rem;
+}
+
+.publications__row {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(13rem, 1fr) minmax(0, 2fr);
+  align-items: baseline;
+  gap: .45rem 2rem;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid #e7ebee;
+  scroll-margin-top: 5rem;
+}
+
+.publications__anchor {
+  position: absolute;
+  top: 0;
+  scroll-margin-top: 5rem;
+}
+
+.page__content .publications__row h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.page__content .publications__row p {
+  margin: 0;
+  color: #535b60;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.publications a {
+  color: #31597a;
+  text-underline-offset: .18em;
+}
+
+.publications__row h2 a {
+  text-decoration: none;
+}
+
+.publications__row h2 a span {
+  display: inline-block;
+  margin-left: .2em;
+  font-size: .9em;
+}
+
+.publications a:hover {
+  color: #183b58;
+  text-decoration: underline;
+}
+
+.publications a:focus-visible {
+  outline: 2px solid #31597a;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.publications__other {
+  padding-top: 1.5rem;
+}
+
+.page__content .publications__other > h2 {
+  margin: 0 0 .75rem;
+  padding: 0;
+  border: 0;
+  color: #535b60;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+.page__content .publications__paper h3 {
+  margin: 0 0 .4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.page__content .publications__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem .65rem;
+  align-items: baseline;
+  margin: 0;
+  font-size: .93rem;
+  line-height: 1.7;
+}
+
+.publications__links > span {
+  color: #626a70;
+}
+
+@media (max-width: 640px) {
+  .publications__row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: .35rem;
+    padding: 1rem 0;
+  }
+}

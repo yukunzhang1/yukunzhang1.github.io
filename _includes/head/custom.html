@@ -22,6 +22,10 @@
 
 <!-- end custom head snippets -->
 
+{% if page.publications_styles %}
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+{% endif %}
+
 {% if page.research_styles %}
 <link rel="stylesheet" href="{{ '/assets/css/ai-economics.css' | relative_url }}">
 {% endif %}
