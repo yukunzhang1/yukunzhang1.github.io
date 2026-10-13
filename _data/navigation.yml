@@ -7,7 +7,7 @@ main:
     url: "/Generative-AI-Economic-Series/"
 
   - title: "AI Agent Economics"
-    url: "/research/ai-agent-economics/"
+    url: "https://crewmoon.github.io/ai-agent-economics/"
 
   - title: "News"
     url: "/#-news"

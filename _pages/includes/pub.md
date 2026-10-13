@@ -3,11 +3,11 @@
 # 📝 Publications and Papers 
 
 <span id="ai-agent-economics"></span>
-### [AI Agent Economics]({{ '/research/ai-agent-economics/' | relative_url }})
+### [AI Agent Economics](https://crewmoon.github.io/ai-agent-economics/)
 
 From delegation rights to social welfare: four connected papers on authorization, AI production, execution control, and public policy.
 
-[Explore the research series →]({{ '/research/ai-agent-economics/' | relative_url }}) · [Original series website](https://crewmoon.github.io/ai-agent-economics/)
+[Explore the research series →](https://crewmoon.github.io/ai-agent-economics/)
 
 <span id="ai-economics"></span>
 <span id="ai-economy-series-"></span>
