@@ -1,7 +1,7 @@
 
 # 📝 Publications and Papers 
 
-### AI Agent Economics
+### AI Agent Economics &ensp;[![Series Homepage](https://img.shields.io/badge/Series-Homepage-181717?logo=github)](https://crewmoon.github.io/ai-agent-economics/)
 
 A four-paper research series on delegation rights, the organization of AI production, execution control, and social welfare.
 
