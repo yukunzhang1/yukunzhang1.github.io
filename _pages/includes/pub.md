@@ -11,11 +11,11 @@ From delegation rights to social welfare: four connected papers on authorization
 
 <span id="ai-economics"></span>
 <span id="ai-economy-series-"></span>
-### [Generative AI Economics]({{ '/research/ai-economics/' | relative_url }})
+### [Generative AI Economics]({{ '/Generative-AI-Economic-Series/' | relative_url }})
 
 Capital, markets, and information: seven papers on how generative AI changes production, market organization, and economic incentives.
 
-[Explore the research series →]({{ '/research/ai-economics/' | relative_url }}) · [Original series website]({{ '/Generative-AI-Economic-Series/' | relative_url }})
+[Explore the research series →]({{ '/Generative-AI-Economic-Series/' | relative_url }})
 
 ### Other Economics Research
 

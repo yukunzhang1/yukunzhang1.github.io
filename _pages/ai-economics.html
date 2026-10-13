@@ -1,52 +1,21 @@
 ---
-layout: default
+layout: null
 title: "Generative AI Economics"
-excerpt: "Capital, markets, and information: seven papers on the economics of generative AI."
 permalink: /research/ai-economics/
-author_profile: true
 ---
-<style>
-.economics-embed-toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; margin: 1rem 0; font-size: .8rem; }
-.economics-series-frame { display: block; width: 100%; height: 1000px; border: 0; }
-</style>
-<div class="economics-embed-toolbar">
-  <a href="{{ '/' | relative_url }}#ai-economics">← All research</a>
-  <a href="{{ '/Generative-AI-Economic-Series/' | relative_url }}" target="_blank" rel="noopener noreferrer">Open series website ↗</a>
-</div>
-<iframe class="economics-series-frame" id="economics-series-frame"
-  src="{{ '/Generative-AI-Economic-Series/' | relative_url }}"
-  title="Generative AI Economics — research series and complete paper abstracts"
-  loading="eager"></iframe>
-<script>
-(function () {
-  'use strict';
-  const frame = document.getElementById('economics-series-frame');
-  let observer;
-  function fitSeries() {
-    if (observer) observer.disconnect();
-    try {
-      const doc = frame.contentDocument;
-      if (!doc || !doc.body) return;
-      function resize() {
-        const height = Math.ceil(doc.body.getBoundingClientRect().height);
-        if (height > 0) frame.style.height = height + 'px';
-      }
-      resize();
-      observer = new ResizeObserver(resize);
-      observer.observe(doc.body);
-      // Open manuscripts outside the frame; keep in-page navigation embedded.
-      doc.querySelectorAll('a[href]').forEach(function (link) {
-        const url = new URL(link.href);
-        if (url.origin === location.origin && url.pathname === new URL(frame.src).pathname) return;
-        link.target = url.origin === location.origin ? '_top' : '_blank';
-        if (link.target === '_blank') link.rel = 'noopener noreferrer';
-      });
-    } catch (_) {
-      // Keep a usable scrolling frame if the series ever moves to another origin.
-      frame.style.height = '1000px';
-    }
-  }
-  frame.addEventListener('load', fitSeries);
-  fitSeries();
-})();
-</script>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Generative AI Economics</title>
+  <link rel="canonical" href="https://yukunzhang1.github.io/Generative-AI-Economic-Series/">
+  <meta http-equiv="refresh" content="0; url={{ '/Generative-AI-Economic-Series/' | relative_url }}">
+  <script>
+    window.location.replace("{{ '/Generative-AI-Economic-Series/' | relative_url }}" + window.location.search + window.location.hash);
+  </script>
+</head>
+<body>
+  <p><a href="{{ '/Generative-AI-Economic-Series/' | relative_url }}">Open Generative AI Economics →</a></p>
+</body>
+</html>

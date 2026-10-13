@@ -4,7 +4,7 @@ main:
     url: "/#about-me"
 
   - title: "Generative AI Economics"
-    url: "/research/ai-economics/"
+    url: "/Generative-AI-Economic-Series/"
 
   - title: "AI Agent Economics"
     url: "/research/ai-agent-economics/"
