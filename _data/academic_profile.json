@@ -1,0 +1,94 @@
+{
+  "updated": "2026-10-13",
+  "name": "Yukun Zhang",
+  "role": "LLM Data Leader",
+  "organization": "Alipay",
+  "location": "Shanghai",
+  "research": "Economics of artificial intelligence; AI agents and economic organization; language model learning, interpretability, and alignment.",
+  "bio": [
+    "My research examines how artificial intelligence changes production, markets, and economic institutions. I study the economics of generative AI and AI agents, alongside work on how language models learn and reason, with a focus on data, architecture, interpretability, and alignment.",
+    "I am currently an LLM Data Leader at Alipay, working on pre-training data and quality governance for multilingual and multimodal models. Previously, I worked on LLM evaluation and interpretable AI at TikTok, and on pricing and data science at Alibaba and JD.com."
+  ],
+  "experience": [
+    {
+      "dates": "Nov 2024 – Present",
+      "organization": "Alipay",
+      "role": "LLM Data Leader",
+      "description": "Lead LLM data work, including pre-training pipelines and quality governance for multilingual and multimodal corpora."
+    },
+    {
+      "dates": "Apr 2022 – Oct 2024",
+      "organization": "TikTok",
+      "role": "",
+      "description": "Led data science work on LLM evaluation, interpretable AI, and algorithmic governance."
+    },
+    {
+      "dates": "Jan 2020 – Apr 2022",
+      "organization": "Alibaba",
+      "role": "Data Science Manager",
+      "description": "Led pricing data science and developed causal inference and experimentation tools for e-commerce."
+    },
+    {
+      "dates": "Jul 2017 – Nov 2019",
+      "organization": "JD.com",
+      "role": "Data Scientist",
+      "description": "Worked on revenue management and dynamic pricing in e-commerce."
+    },
+    {
+      "dates": "Jul 2016 – Jul 2017",
+      "organization": "The Chinese University of Hong Kong",
+      "role": "Research Assistant",
+      "description": "Researched machine learning applications in finance with Lingfei Li.",
+      "advisor": {
+        "name": "Lingfei Li",
+        "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/"
+      }
+    },
+    {
+      "dates": "Jun 2016 – Aug 2016",
+      "organization": "Harvard University",
+      "role": "Research Assistant",
+      "description": "Worked on the China Gazetteer Project at the National Bureau of Economic Research."
+    }
+  ],
+  "education": [
+    {
+      "dates": "Aug 2015 – Jul 2017",
+      "institution": "The Chinese University of Hong Kong",
+      "degree": "Master’s degree in Financial Engineering",
+      "advisors": [
+        {
+          "name": "Duan Li",
+          "url": "https://www1.se.cuhk.edu.hk/~dli/"
+        },
+        {
+          "name": "Nan Chen",
+          "url": "https://www1.se.cuhk.edu.hk/~nchenweb/"
+        }
+      ]
+    },
+    {
+      "dates": "Sep 2011 – Jun 2015",
+      "institution": "Shandong University of Finance and Economics",
+      "degree": "Bachelor’s degrees in Logistics and Finance",
+      "advisors": []
+    }
+  ],
+  "series": [
+    {
+      "title": "Generative AI Economics",
+      "url": "https://yukunzhang1.github.io/Generative-AI-Economic-Series/",
+      "description": "Capital, markets, and information."
+    },
+    {
+      "title": "AI Agent Economics",
+      "url": "https://crewmoon.github.io/ai-agent-economics/",
+      "description": "Delegation rights, production organization, execution control, and social welfare."
+    },
+    {
+      "title": "LLM Paper Series",
+      "url": "https://yukunzhang1.github.io/research/llm-paper-series/",
+      "description": "Learning, architecture, interpretability, and alignment."
+    }
+  ]
+}

@@ -1,21 +1,18 @@
 ---
+layout: academic-home
 permalink: /
 title: ""
-excerpt: ""
-author_profile: true
-publications_styles: true
-redirect_from: 
+excerpt: "Yukun Zhang studies the economics of AI and AI agents, and language model learning, interpretability, and alignment."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
 {% include_relative includes/intro.md %}
 
-If you like the template of this homepage, welcome to star and fork my open-sourced template version [AcadHomepage ![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io?style=social)](https://github.com/RayeRen/acad-homepage.github.io).
+{% include_relative includes/pub.md %}
 
 {% include_relative includes/news.md %}
-
-{% include_relative includes/pub.md %}
 
 {% include_relative includes/others.md %}

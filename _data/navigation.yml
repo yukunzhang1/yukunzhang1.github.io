@@ -1,33 +1,9 @@
-# main links links
 main:
-  - title: "About Me"
+  - title: "About"
     url: "/#about-me"
-
   - title: "Generative AI Economics"
     url: "/Generative-AI-Economic-Series/"
-
   - title: "AI Agent Economics"
     url: "https://crewmoon.github.io/ai-agent-economics/"
-
   - title: "LLM Paper Series"
     url: "/research/llm-paper-series/"
-
-  - title: "News"
-    url: "/#-news"
-
-  - title: "Publications"
-    url: "/#publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
-
-

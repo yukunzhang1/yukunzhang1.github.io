@@ -1,0 +1,95 @@
+:root {
+  --ink: #263238;
+  --muted: #657078;
+  --link: #315d7a;
+  --line: #e4e9ec;
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; scroll-padding-top: 6rem; }
+body { margin: 0; background: #fff; color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 1rem; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: .2em; }
+a:hover { color: #173b54; text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 2px; }
+h1, h2, h3, h4, p { margin-top: 0; }
+h1, h2 { color: #243442; font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
+h1 { margin: 0 0 .35rem; font-size: 2.45rem; line-height: 1.2; letter-spacing: -.02em; }
+h2 { margin: 0 0 1.15rem; font-size: 1.55rem; line-height: 1.4; }
+h3, h4 { font-size: 1rem; line-height: 1.5; font-weight: 600; }
+p { margin-bottom: .85rem; }
+.skip-link { position: absolute; top: -8rem; left: 1rem; z-index: 10; padding: .6rem 1rem; background: #fff; }
+.skip-link:focus { top: .5rem; }
+.site-header { border-bottom: 1px solid var(--line); background: #fff; }
+.site-navigation { max-width: 1140px; margin: auto; min-height: 76px; padding: .9rem 30px; display: flex; justify-content: space-between; align-items: center; gap: 2rem; }
+.site-name { font-family: Georgia, "Times New Roman", serif; font-size: 1.15rem; font-weight: 600; color: var(--ink); white-space: nowrap; text-decoration: none; }
+.site-navigation ul { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: .5rem 1.4rem; list-style: none; padding: 0; margin: 0; }
+.site-navigation li { margin: 0; }
+.site-navigation li a { display: inline-block; padding: .25rem 0; font-size: .87rem; color: #475861; text-decoration: none; }
+.site-navigation li a:hover { color: var(--link); text-decoration: underline; }
+.home-layout { max-width: 1140px; margin: 0 auto; padding: 48px 30px 0; display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 58px; align-items: start; }
+.profile { position: sticky; top: 32px; }
+.profile__photo { display: block; width: 156px; height: 156px; border-radius: 50%; object-fit: cover; object-position: center 40%; margin-bottom: 1.25rem; }
+.profile__role { margin-bottom: 1rem; font-size: .91rem; font-weight: 600; line-height: 1.65; }
+.profile__role span { font-weight: 400; color: var(--muted); }
+.profile__links { list-style: none; margin: 0; padding: 0; }
+.profile__links li { margin: .35rem 0; }
+.profile__links a { display: inline-block; padding: .15rem 0; font-size: .9rem; text-decoration: none; }
+.home-content { min-width: 0; }
+.home-content:focus { outline: none; }
+.introduction { scroll-margin-top: 2rem; }
+.research-line { margin-bottom: 1.25rem; font-size: .92rem; color: var(--muted); line-height: 1.6; }
+.introduction > p:not(.research-line) { max-width: 52em; line-height: 1.8; }
+.home-section { position: relative; margin: 2.25rem 0 0; scroll-margin-top: 2rem; }
+.publications > h2 { margin-bottom: .3rem; }
+.publications__row { position: relative; display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.55fr); align-items: baseline; gap: .5rem 1.65rem; padding: 1.1rem 0; border-bottom: 1px solid var(--line); scroll-margin-top: 2rem; }
+.publications__row h3 { margin: 0; font-size: 1rem; }
+.publications__row h3 a { text-decoration: none; }
+.publications__row h3 a:hover { text-decoration: underline; }
+.publications__row h3 a span { display: inline-block; margin-left: .25em; font-size: .85em; }
+.publications__row p { margin: 0; font-size: .94rem; color: #56626a; line-height: 1.65; }
+.publications__anchor, .legacy-anchor { position: absolute; top: 0; scroll-margin-top: 2rem; }
+.publications__other { padding-top: 1.3rem; }
+.publications__other > h3 { margin: 0 0 .5rem; color: var(--muted); font-size: .85rem; font-weight: 500; }
+.publications__paper h4 { margin: 0 0 .35rem; font-size: .94rem; }
+.publications__links { display: flex; flex-wrap: wrap; gap: .2rem .6rem; margin: 0; font-size: .85rem; }
+.publications__links > span { color: var(--muted); }
+.timeline__entry { display: grid; grid-template-columns: 155px minmax(0, 1fr); gap: .3rem 1.4rem; margin-bottom: 1.15rem; }
+.timeline__date { margin: .12rem 0 0; font-size: .8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.timeline__entry h3 { margin: 0 0 .2rem; font-size: .94rem; }
+.timeline__role { font-weight: 400; color: #52616a; }
+.timeline__entry div > p { margin: 0; font-size: .9rem; color: #56626a; line-height: 1.65; }
+.timeline__entry .education-advisors { margin-top: .25rem; font-size: .84rem; }
+.site-footer { border-top: 1px solid var(--line); margin: 2.5rem 0 0; padding: 1rem 0 1.6rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .3rem 1rem; color: var(--muted); font-size: .72rem; }
+.site-footer a { color: inherit; }
+@media (max-width: 1000px) {
+  .site-navigation { align-items: flex-start; gap: 1rem; }
+  .site-navigation ul { gap: .4rem 1rem; }
+  .home-layout { grid-template-columns: 156px minmax(0, 1fr); gap: 32px; }
+  .publications__row { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
+}
+@media (max-width: 700px) {
+  html { font-size: 16px; }
+  .site-navigation { padding: 16px 22px; flex-direction: column; gap: .55rem; }
+  .site-navigation ul { justify-content: flex-start; gap: .35rem 1rem; }
+  .site-navigation li a { padding: .25rem 0; }
+  .home-layout { padding: 28px 22px 0; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .profile { position: static; display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 22px; align-items: center; }
+  .profile__photo { width: 100px; height: 100px; margin: 0; }
+  .profile__role { margin-bottom: .3rem; }
+  .profile__links { display: flex; flex-wrap: wrap; gap: 0 .8rem; }
+  .profile__links li { margin: 0; }
+  .profile__links a { font-size: .82rem; padding: .25rem 0; }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.4rem; }
+  .home-section { margin-top: 2rem; }
+  .timeline__entry { grid-template-columns: minmax(0, 1fr); gap: .15rem; margin-bottom: 1.3rem; }
+}
+@media print {
+  .site-header, .profile, .skip-link, .site-footer { display: none; }
+  .home-layout { display: block; padding: 0; max-width: none; }
+  body { font-size: 10pt; }
+  h1 { font-size: 22pt; }
+  h2 { font-size: 15pt; }
+  .home-section { margin-top: 1.2rem; }
+  .publications__row, .timeline__entry { break-inside: avoid; }
+  a { color: #263238; }
+}

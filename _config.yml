@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "yukun.zhang"
-description              : "LLM Data Leader."
+title                    : "Yukun Zhang"
+description              : "Research on AI economics, language models, interpretability, and alignment."
 repository               : "yukunzhang1/yukunzhang1.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "yukun.zhang"
+  name             : "Yukun Zhang"
   avatar           : "images/yukun zhang.png"
-  bio              : "Alibaba"
+  bio              : "LLM Data Leader · Alipay"
   location         : "Shanghai"
   employer         :
   pubmed           : 

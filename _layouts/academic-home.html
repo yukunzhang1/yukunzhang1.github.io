@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <meta name="description" content="{{ page.excerpt | escape }}">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academic-home.css' | relative_url }}">
+</head>
+<body class="academic-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="site-navigation" aria-label="Main navigation">
+      <a class="site-name" href="{{ '/' | relative_url }}">Yukun Zhang</a>
+      <ul>
+        {% for item in site.data.navigation.main %}
+        {% if item.url contains '://' %}{% assign destination = item.url %}{% else %}{% assign destination = item.url | relative_url %}{% endif %}
+        <li><a href="{{ destination }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <div class="home-layout">
+    <aside class="profile" aria-label="Profile and contact">
+      <img class="profile__photo" src="{{ site.author.avatar | relative_url }}" alt="Yukun Zhang" width="156" height="156">
+      <div class="profile__details">
+        <p class="profile__role">{{ site.data.academic_profile.role }}<br><span>{{ site.data.academic_profile.organization }} · {{ site.data.academic_profile.location }}</span></p>
+        <ul class="profile__links">
+          <li><a href="mailto:{{ site.author.email }}">Email</a></li>
+          <li><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+          <li><a href="{{ site.author.linkedin }}">LinkedIn</a></li>
+          <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+        </ul>
+      </div>
+    </aside>
+    <main id="main" class="home-content" tabindex="-1">
+      {{ content }}
+      <footer class="site-footer">
+        <span>Updated {{ site.data.academic_profile.updated | date: "%B %Y" }}</span>
+        <span>Built with Jekyll · Original template: <a href="https://github.com/RayeRen/acad-homepage.github.io">AcadHomepage</a></span>
+      </footer>
+    </main>
+  </div>
+  {% include analytics.html %}
+</body>
+</html>
