@@ -85,7 +85,6 @@ A unified economic framework spanning macro dynamics, market structures, and inf
    [![arXiv](https://img.shields.io/badge/arXiv-2505.20340-b31b1b.svg)](https://arxiv.org/abs/2505.20340)
    *working paper*
 
-
-
-
-
+7. **CausalMix: Data Mixture as Causal Inference for Language Model Training**
+   [![arXiv](https://img.shields.io/badge/arXiv-2607.01104-b31b1b.svg)](https://arxiv.org/abs/2607.01104)
+   *NeurIPS 2026*
