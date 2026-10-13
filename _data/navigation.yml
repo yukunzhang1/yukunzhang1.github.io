@@ -3,6 +3,9 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
+  - title: "AI Economics"
+    url: "/research/ai-economics/"
+
   - title: "AI Agent Economics"
     url: "/research/ai-agent-economics/"
 
@@ -10,7 +13,7 @@ main:
     url: "/#-news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
