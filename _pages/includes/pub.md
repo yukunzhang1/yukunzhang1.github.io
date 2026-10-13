@@ -17,37 +17,18 @@ Capital, markets, and information: seven papers on how generative AI changes pro
 
 [Explore the research series →]({{ '/Generative-AI-Economic-Series/' | relative_url }})
 
+<span id="llm-paper-series"></span>
+<span id="ai-interpretability--model-architecture"></span>
+### [LLM Paper Series]({{ '/research/llm-paper-series/' | relative_url }})
+
+Learning, architecture, interpretability, and alignment: seven papers on understanding and improving language models.
+
+[Explore the paper series →]({{ '/research/llm-paper-series/' | relative_url }})
+
 ### Other Economics Research
 
 1. **Revenue vs. Welfare: A Comprehensive Analysis of Strategic Trade-offs in Online Food Delivery Systems**
    [![arXiv](https://img.shields.io/badge/arXiv-2410.16566-b31b1b.svg)](https://arxiv.org/abs/2410.16566)
    [![IET](https://img.shields.io/badge/IET-10.1049-blue.svg)](https://digital-library.theiet.org/doi/abs/10.1049/icp.2025.2957)
    *CADE 2025*
-
-### AI Interpretability & Model Architecture
-
-1. **CausalMix: Data Mixture as Causal Inference for Language Model Training**
-   [![arXiv](https://img.shields.io/badge/arXiv-2607.01104-b31b1b.svg)](https://arxiv.org/abs/2607.01104)
-   *NeurIPS 2026*
-
-2. **Hierarchical Alignment: Surgical Fine-Tuning via Functional Layer Specialization in Large Language Models**
-   [![arXiv](https://img.shields.io/badge/arXiv-2510.12044-b31b1b.svg)](https://arxiv.org/abs/2510.12044)
-   *EMNLP 2026*
-
-3. **Continuous-Time Attention: PDE-Guided Mechanisms for Long-Sequence Transformers**
-   [![ACL Anthology](https://img.shields.io/badge/ACL%20Anthology-EMNLP%202025-blue.svg)](https://aclanthology.org/2025.emnlp-main.1097.pdf)
-   [![Project](https://img.shields.io/badge/Project-Page-green.svg)](https://xueqingzhou.github.io/Continuous-Time-Attention/)
-   *EMNLP 2025*
-
-4. **Where to Add PDE Diffusion in Transformers**
-   [![arXiv](https://img.shields.io/badge/arXiv-2510.03272-b31b1b.svg)](https://arxiv.org/abs/2510.03272)
-
-5. **How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning**
-   [![arXiv](https://img.shields.io/badge/arXiv-2602.15580-b31b1b.svg)](https://arxiv.org/abs/2602.15580)
-
-6. **Multi-Scale Probabilistic Generation Theory: A Unified Information-Theoretic Framework for Hierarchical Structure in Large Language Models**
-   [![arXiv](https://img.shields.io/badge/arXiv-2505.18244-b31b1b.svg)](https://arxiv.org/abs/2505.18244)
-
-7. **Empirical Investigation of Latent Representational Dynamics in Large Language Models: A Manifold Evolution Perspective**
-   [![arXiv](https://img.shields.io/badge/arXiv-2505.20340-b31b1b.svg)](https://arxiv.org/abs/2505.20340)
 

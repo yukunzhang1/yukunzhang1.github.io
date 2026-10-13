@@ -1,0 +1,198 @@
+{
+  "updated": "2026-10-13",
+  "papers": [
+    {
+      "slug": "causalmix",
+      "title": "CausalMix: Data Mixture as Causal Inference for Language Model Training",
+      "authors": [
+        "Zinan Tang",
+        "Yukun Zhang",
+        "Shaomian Zheng",
+        "Zhuoshi Pan",
+        "Qizhi Pei",
+        "Dingnan Jin",
+        "Jun Zhou",
+        "Yujun Wang",
+        "Biqing Huang"
+      ],
+      "topic": "Data & Training",
+      "topic_zh": "数据与训练",
+      "venue": "NeurIPS 2026",
+      "summary": "CausalMix treats data-mixture selection as a causal inference problem. It uses data-pool characteristics and proxy training runs to estimate how the value of each data source changes across settings, then transfers the resulting mixing strategy to larger data pools and models.",
+      "summary_zh": "CausalMix 将训练数据配比建模为因果推断问题，利用数据池特征和小模型训练记录，估计不同数据来源在不同条件下的收益，再将配比策略迁移至更大的数据池与模型。",
+      "links": [
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2607.01104"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2607.01104"
+        ]
+      ],
+      "source": "https://arxiv.org/abs/2607.01104",
+      "image": "/assets/images/llm-paper-series/causalmix.webp"
+    },
+    {
+      "slug": "hierarchical-alignment",
+      "title": "Hierarchical Alignment: Surgical Fine-Tuning via Functional Layer Specialization in Large Language Models",
+      "authors": [
+        "Yukun Zhang",
+        "Qi Dong"
+      ],
+      "topic": "Interpretability & Alignment",
+      "topic_zh": "可解释性与对齐",
+      "venue": "EMNLP 2026",
+      "summary": "This work asks whether alignment should follow the functional organization of a language model. It applies preference optimization to selected layer groups and compares the effects on fluency, factual consistency, and logical coherence, studying how targeted updates can limit interference between objectives.",
+      "summary_zh": "这项研究考察对齐是否应遵循语言模型内部的功能分工。论文在特定层组上进行偏好优化，比较其对流畅度、事实一致性和逻辑连贯性的影响，分析有针对性的更新如何减少不同目标之间的干扰。",
+      "links": [
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2510.12044"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2510.12044"
+        ]
+      ],
+      "source": "https://arxiv.org/abs/2510.12044",
+      "image": "/assets/images/llm-paper-series/hierarchical-alignment.webp"
+    },
+    {
+      "slug": "continuous-time-attention",
+      "title": "Continuous-Time Attention: PDE-Guided Mechanisms for Long-Sequence Transformers",
+      "authors": [
+        "Yukun Zhang",
+        "Xueqing Zhou"
+      ],
+      "topic": "Model Architecture",
+      "topic_zh": "模型架构",
+      "venue": "EMNLP 2025",
+      "summary": "Continuous-Time Attention lets attention weights evolve through diffusion, wave, or reaction–diffusion dynamics. The paper combines theoretical analysis and long-sequence experiments to study how these continuous-time mechanisms affect distant interactions, noise, and training stability.",
+      "summary_zh": "Continuous-Time Attention 让注意力权重通过扩散、波动或反应—扩散动力学演化。论文结合理论分析与长序列实验，研究这些连续时间机制如何影响远距离交互、局部噪声和训练稳定性。",
+      "links": [
+        [
+          "PDF",
+          "https://aclanthology.org/2025.emnlp-main.1097.pdf"
+        ],
+        [
+          "ACL Anthology",
+          "https://aclanthology.org/2025.emnlp-main.1097/"
+        ],
+        [
+          "Project",
+          "https://xueqingzhou.github.io/Continuous-Time-Attention/"
+        ],
+        [
+          "Code",
+          "https://github.com/XueqingZhou/Continuous-Time-Attention"
+        ]
+      ],
+      "source": "https://aclanthology.org/2025.emnlp-main.1097/",
+      "image": "/assets/images/llm-paper-series/continuous-time-attention.webp"
+    },
+    {
+      "slug": "pde-diffusion",
+      "title": "Where to Add PDE Diffusion in Transformers",
+      "authors": [
+        "Yukun Zhang",
+        "Xueqing Zhou"
+      ],
+      "topic": "Model Architecture",
+      "topic_zh": "模型架构",
+      "venue": "",
+      "summary": "Where a local diffusion operator enters a Transformer matters. The paper studies why diffusion and attention generally do not commute, derives stability and perturbation bounds, and compares seven insertion positions to distinguish useful smoothing from conflicting information mixing.",
+      "summary_zh": "局部扩散算子放在 Transformer 的哪个位置，会改变其作用。论文分析扩散与注意力通常不可交换的原因，推导稳定性和扰动界，并比较七种插入位置，区分有效平滑与相互冲突的信息混合。",
+      "links": [
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2510.03272"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2510.03272"
+        ]
+      ],
+      "source": "https://arxiv.org/abs/2510.03272",
+      "image": "/assets/images/llm-paper-series/pde-diffusion.webp"
+    },
+    {
+      "slug": "vision-language",
+      "title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "authors": [
+        "Hongxuan Wu",
+        "Yukun Zhang",
+        "Xueqing Zhou"
+      ],
+      "topic": "Multimodal Interpretability",
+      "topic_zh": "多模态可解释性",
+      "venue": "",
+      "summary": "Using partial information decomposition, this study tracks visual, linguistic, shared, and synergistic information across multimodal Transformer layers. Experiments on LLaVA models and targeted attention interventions examine how visual evidence is transformed into language-dominated predictions.",
+      "summary_zh": "研究利用部分信息分解，追踪多模态 Transformer 各层中的视觉独有信息、语言独有信息、冗余与协同信息，并通过 LLaVA 实验和定向注意力干预，分析视觉证据如何逐步转化为以语言信息为主的预测。",
+      "links": [
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2602.15580"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2602.15580"
+        ]
+      ],
+      "source": "https://arxiv.org/abs/2602.15580",
+      "image": "/assets/images/llm-paper-series/vision-language.webp"
+    },
+    {
+      "slug": "hierarchical-structure",
+      "title": "Emergent Hierarchical Structure in Large Language Models: An Information-Theoretic Framework for Multi-Scale Representation",
+      "authors": [
+        "Yukun Zhang",
+        "Qi Dong",
+        "Kemu Xu"
+      ],
+      "topic": "Representation & Theory",
+      "topic_zh": "表征与理论",
+      "venue": "",
+      "summary": "This information-theoretic framework studies how local, intermediate, and global processing stages emerge inside language models. Comparisons across Llama and Qwen models test how architecture and scale relate to functional boundaries and sensitivity to perturbations.",
+      "summary_zh": "这一信息论框架研究语言模型内部如何形成局部、中间与全局处理阶段。通过比较 Llama 和 Qwen 系列模型，论文检验架构与规模如何关联功能边界及对扰动的敏感性。",
+      "links": [
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2505.18244"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2505.18244"
+        ]
+      ],
+      "source": "https://arxiv.org/abs/2505.18244",
+      "image": "/assets/images/llm-paper-series/hierarchical-structure.webp"
+    },
+    {
+      "slug": "latent-dynamics",
+      "title": "Latent Trajectory Dynamics in Large Language Models: A Manifold Evolution Framework with Empirical Validation",
+      "authors": [
+        "Yukun Zhang",
+        "Qi Dong",
+        "Mengkang Li"
+      ],
+      "topic": "Representation & Dynamics",
+      "topic_zh": "表征与动力学",
+      "venue": "",
+      "summary": "This work models generation as a trajectory on a semantic manifold. It connects continuity, attractor structure, and topology to text quality, then explores how monitoring latent dynamics can guide adaptive decoding.",
+      "summary_zh": "这项研究将生成过程建模为语义流形上的轨迹，考察连续性、吸引子结构与拓扑特征和文本质量之间的关系，并进一步探索如何利用隐状态动力学监测来指导自适应解码。",
+      "links": [
+        [
+          "PDF",
+          "https://arxiv.org/pdf/2505.20340"
+        ],
+        [
+          "arXiv",
+          "https://arxiv.org/abs/2505.20340"
+        ]
+      ],
+      "source": "https://arxiv.org/abs/2505.20340",
+      "image": "/assets/images/llm-paper-series/latent-dynamics.webp"
+    }
+  ]
+}

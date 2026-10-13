@@ -1,0 +1,104 @@
+---
+layout: null
+title: "LLM Paper Series"
+permalink: /research/llm-paper-series/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LLM Paper Series — Yukun Zhang</title>
+  <meta name="description" content="Research on language-model training, architecture, interpretability, and alignment by Yukun Zhang and collaborators.">
+  <meta name="theme-color" content="#fbf8f6">
+  <meta property="og:title" content="LLM Paper Series">
+  <meta property="og:description" content="Seven papers on understanding and improving language models.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://yukunzhang1.github.io/research/llm-paper-series/">
+  <link rel="stylesheet" href="/assets/css/llm-paper-series.css?v=c6aef096ce8a">
+  <script src="/assets/js/llm-paper-series.js?v=ac122a616d24" defer></script>
+</head>
+<body id="top">
+<a class="skip-link" href="#papers">Skip to papers</a>
+<header class="topbar"><nav class="wrap" aria-label="Research navigation"><a class="home-link" href="/">Yukun Zhang</a><div class="toplinks"><a href="/Generative-AI-Economic-Series/">Generative AI Economics</a><a href="https://crewmoon.github.io/ai-agent-economics/">AI Agent Economics</a><button class="language" type="button" hidden>中文</button></div></nav></header>
+<main class="wrap">
+  <section class="hero" aria-labelledby="page-title">
+    <p class="eyebrow"><span data-lang="en">Research by Yukun Zhang &amp; collaborators</span><span data-lang="zh" lang="zh-Hans">Yukun Zhang 与合作者的研究</span></p>
+    <h1 id="page-title">LLM Paper Series</h1>
+    <p class="lead"><span data-lang="en">Understanding and improving language models: how they learn, organize information, and generate reliable responses.</span><span data-lang="zh" lang="zh-Hans">理解并改进语言模型：它们如何学习、组织信息，以及生成可靠的回答。</span></p>
+    <div class="hero-links"><a href="#papers"><span data-lang="en">Explore the papers</span><span data-lang="zh" lang="zh-Hans">阅读系列论文</span></a><a href="mailto:215010026@link.cuhk.edu.cn"><span data-lang="en">Contact</span><span data-lang="zh" lang="zh-Hans">联系</span></a><a href="https://scholar.google.com/citations?user=w8XKACEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></div>
+    <div class="interests"><span><span data-lang="en">Data &amp; Training</span><span data-lang="zh" lang="zh-Hans">数据与训练</span></span><span><span data-lang="en">Model Architecture</span><span data-lang="zh" lang="zh-Hans">模型架构</span></span><span><span data-lang="en">Interpretability</span><span data-lang="zh" lang="zh-Hans">可解释性</span></span><span><span data-lang="en">Alignment</span><span data-lang="zh" lang="zh-Hans">对齐</span></span></div>
+  </section>
+  <section id="papers" aria-labelledby="papers-title">
+    <div class="section-head"><h2 id="papers-title"><span data-lang="en">Research papers</span><span data-lang="zh" lang="zh-Hans">研究论文</span></h2><p><span data-lang="en">Seven papers · 2025–2026</span><span data-lang="zh" lang="zh-Hans">七篇论文 · 2025–2026</span></p></div>
+    <div class="paper-list"><article class="paper" id="causalmix" aria-labelledby="title-causalmix">
+  <a class="paper-image" href="/assets/images/llm-paper-series/causalmix.webp" data-source="https://arxiv.org/abs/2607.01104" aria-label="Enlarge figure: CausalMix: Data Mixture as Causal Inference for Language Model Training"><img src="/assets/images/llm-paper-series/causalmix.webp" alt="Research figure from CausalMix: Data Mixture as Causal Inference for Language Model Training" width="200" height="138" loading="lazy" decoding="async"></a>
+  <div class="paper-content">
+    <p class="paper-meta"><span class="topic"><span data-lang="en">Data &amp; Training</span><span data-lang="zh" lang="zh-Hans">数据与训练</span></span><span class="venue">NeurIPS 2026</span></p>
+    <h3 id="title-causalmix"><a href="https://arxiv.org/abs/2607.01104" target="_blank" rel="noopener noreferrer">CausalMix: Data Mixture as Causal Inference for Language Model Training</a></h3>
+    <p class="authors">Zinan Tang, <strong>Yukun Zhang</strong>, Shaomian Zheng, Zhuoshi Pan, Qizhi Pei, Dingnan Jin, Jun Zhou, Yujun Wang, Biqing Huang</p>
+    <p class="summary"><span data-lang="en">CausalMix treats data-mixture selection as a causal inference problem. It uses data-pool characteristics and proxy training runs to estimate how the value of each data source changes across settings, then transfers the resulting mixing strategy to larger data pools and models.</span><span data-lang="zh" lang="zh-Hans">CausalMix 将训练数据配比建模为因果推断问题，利用数据池特征和小模型训练记录，估计不同数据来源在不同条件下的收益，再将配比策略迁移至更大的数据池与模型。</span></p>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2607.01104" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://arxiv.org/abs/2607.01104" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+  </div>
+</article><article class="paper" id="hierarchical-alignment" aria-labelledby="title-hierarchical-alignment">
+  <a class="paper-image" href="/assets/images/llm-paper-series/hierarchical-alignment.webp" data-source="https://arxiv.org/abs/2510.12044" aria-label="Enlarge figure: Hierarchical Alignment: Surgical Fine-Tuning via Functional Layer Specialization in Large Language Models"><img src="/assets/images/llm-paper-series/hierarchical-alignment.webp" alt="Research figure from Hierarchical Alignment: Surgical Fine-Tuning via Functional Layer Specialization in Large Language Models" width="200" height="138" loading="lazy" decoding="async"></a>
+  <div class="paper-content">
+    <p class="paper-meta"><span class="topic"><span data-lang="en">Interpretability &amp; Alignment</span><span data-lang="zh" lang="zh-Hans">可解释性与对齐</span></span><span class="venue">EMNLP 2026</span></p>
+    <h3 id="title-hierarchical-alignment"><a href="https://arxiv.org/abs/2510.12044" target="_blank" rel="noopener noreferrer">Hierarchical Alignment: Surgical Fine-Tuning via Functional Layer Specialization in Large Language Models</a></h3>
+    <p class="authors"><strong>Yukun Zhang</strong>, Qi Dong</p>
+    <p class="summary"><span data-lang="en">This work asks whether alignment should follow the functional organization of a language model. It applies preference optimization to selected layer groups and compares the effects on fluency, factual consistency, and logical coherence, studying how targeted updates can limit interference between objectives.</span><span data-lang="zh" lang="zh-Hans">这项研究考察对齐是否应遵循语言模型内部的功能分工。论文在特定层组上进行偏好优化，比较其对流畅度、事实一致性和逻辑连贯性的影响，分析有针对性的更新如何减少不同目标之间的干扰。</span></p>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2510.12044" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://arxiv.org/abs/2510.12044" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+  </div>
+</article><article class="paper" id="continuous-time-attention" aria-labelledby="title-continuous-time-attention">
+  <a class="paper-image" href="/assets/images/llm-paper-series/continuous-time-attention.webp" data-source="https://aclanthology.org/2025.emnlp-main.1097/" aria-label="Enlarge figure: Continuous-Time Attention: PDE-Guided Mechanisms for Long-Sequence Transformers"><img src="/assets/images/llm-paper-series/continuous-time-attention.webp" alt="Research figure from Continuous-Time Attention: PDE-Guided Mechanisms for Long-Sequence Transformers" width="200" height="138" loading="lazy" decoding="async"></a>
+  <div class="paper-content">
+    <p class="paper-meta"><span class="topic"><span data-lang="en">Model Architecture</span><span data-lang="zh" lang="zh-Hans">模型架构</span></span><span class="venue">EMNLP 2025</span></p>
+    <h3 id="title-continuous-time-attention"><a href="https://aclanthology.org/2025.emnlp-main.1097/" target="_blank" rel="noopener noreferrer">Continuous-Time Attention: PDE-Guided Mechanisms for Long-Sequence Transformers</a></h3>
+    <p class="authors"><strong>Yukun Zhang</strong>, Xueqing Zhou</p>
+    <p class="summary"><span data-lang="en">Continuous-Time Attention lets attention weights evolve through diffusion, wave, or reaction–diffusion dynamics. The paper combines theoretical analysis and long-sequence experiments to study how these continuous-time mechanisms affect distant interactions, noise, and training stability.</span><span data-lang="zh" lang="zh-Hans">Continuous-Time Attention 让注意力权重通过扩散、波动或反应—扩散动力学演化。论文结合理论分析与长序列实验，研究这些连续时间机制如何影响远距离交互、局部噪声和训练稳定性。</span></p>
+    <div class="paper-links"><a href="https://aclanthology.org/2025.emnlp-main.1097.pdf" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://aclanthology.org/2025.emnlp-main.1097/" target="_blank" rel="noopener noreferrer">ACL Anthology</a><a href="https://xueqingzhou.github.io/Continuous-Time-Attention/" target="_blank" rel="noopener noreferrer">Project</a><a href="https://github.com/XueqingZhou/Continuous-Time-Attention" target="_blank" rel="noopener noreferrer">Code</a></div>
+  </div>
+</article><article class="paper" id="pde-diffusion" aria-labelledby="title-pde-diffusion">
+  <a class="paper-image" href="/assets/images/llm-paper-series/pde-diffusion.webp" data-source="https://arxiv.org/abs/2510.03272" aria-label="Enlarge figure: Where to Add PDE Diffusion in Transformers"><img src="/assets/images/llm-paper-series/pde-diffusion.webp" alt="Research figure from Where to Add PDE Diffusion in Transformers" width="200" height="138" loading="lazy" decoding="async"></a>
+  <div class="paper-content">
+    <p class="paper-meta"><span class="topic"><span data-lang="en">Model Architecture</span><span data-lang="zh" lang="zh-Hans">模型架构</span></span></p>
+    <h3 id="title-pde-diffusion"><a href="https://arxiv.org/abs/2510.03272" target="_blank" rel="noopener noreferrer">Where to Add PDE Diffusion in Transformers</a></h3>
+    <p class="authors"><strong>Yukun Zhang</strong>, Xueqing Zhou</p>
+    <p class="summary"><span data-lang="en">Where a local diffusion operator enters a Transformer matters. The paper studies why diffusion and attention generally do not commute, derives stability and perturbation bounds, and compares seven insertion positions to distinguish useful smoothing from conflicting information mixing.</span><span data-lang="zh" lang="zh-Hans">局部扩散算子放在 Transformer 的哪个位置，会改变其作用。论文分析扩散与注意力通常不可交换的原因，推导稳定性和扰动界，并比较七种插入位置，区分有效平滑与相互冲突的信息混合。</span></p>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2510.03272" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://arxiv.org/abs/2510.03272" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+  </div>
+</article><article class="paper" id="vision-language" aria-labelledby="title-vision-language">
+  <a class="paper-image" href="/assets/images/llm-paper-series/vision-language.webp" data-source="https://arxiv.org/abs/2602.15580" aria-label="Enlarge figure: How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning"><img src="/assets/images/llm-paper-series/vision-language.webp" alt="Research figure from How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning" width="200" height="138" loading="lazy" decoding="async"></a>
+  <div class="paper-content">
+    <p class="paper-meta"><span class="topic"><span data-lang="en">Multimodal Interpretability</span><span data-lang="zh" lang="zh-Hans">多模态可解释性</span></span></p>
+    <h3 id="title-vision-language"><a href="https://arxiv.org/abs/2602.15580" target="_blank" rel="noopener noreferrer">How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning</a></h3>
+    <p class="authors">Hongxuan Wu, <strong>Yukun Zhang</strong>, Xueqing Zhou</p>
+    <p class="summary"><span data-lang="en">Using partial information decomposition, this study tracks visual, linguistic, shared, and synergistic information across multimodal Transformer layers. Experiments on LLaVA models and targeted attention interventions examine how visual evidence is transformed into language-dominated predictions.</span><span data-lang="zh" lang="zh-Hans">研究利用部分信息分解，追踪多模态 Transformer 各层中的视觉独有信息、语言独有信息、冗余与协同信息，并通过 LLaVA 实验和定向注意力干预，分析视觉证据如何逐步转化为以语言信息为主的预测。</span></p>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2602.15580" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://arxiv.org/abs/2602.15580" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+  </div>
+</article><article class="paper" id="hierarchical-structure" aria-labelledby="title-hierarchical-structure">
+  <a class="paper-image" href="/assets/images/llm-paper-series/hierarchical-structure.webp" data-source="https://arxiv.org/abs/2505.18244" aria-label="Enlarge figure: Emergent Hierarchical Structure in Large Language Models: An Information-Theoretic Framework for Multi-Scale Representation"><img src="/assets/images/llm-paper-series/hierarchical-structure.webp" alt="Research figure from Emergent Hierarchical Structure in Large Language Models: An Information-Theoretic Framework for Multi-Scale Representation" width="200" height="138" loading="lazy" decoding="async"></a>
+  <div class="paper-content">
+    <p class="paper-meta"><span class="topic"><span data-lang="en">Representation &amp; Theory</span><span data-lang="zh" lang="zh-Hans">表征与理论</span></span></p>
+    <h3 id="title-hierarchical-structure"><a href="https://arxiv.org/abs/2505.18244" target="_blank" rel="noopener noreferrer">Emergent Hierarchical Structure in Large Language Models: An Information-Theoretic Framework for Multi-Scale Representation</a></h3>
+    <p class="authors"><strong>Yukun Zhang</strong>, Qi Dong, Kemu Xu</p>
+    <p class="summary"><span data-lang="en">This information-theoretic framework studies how local, intermediate, and global processing stages emerge inside language models. Comparisons across Llama and Qwen models test how architecture and scale relate to functional boundaries and sensitivity to perturbations.</span><span data-lang="zh" lang="zh-Hans">这一信息论框架研究语言模型内部如何形成局部、中间与全局处理阶段。通过比较 Llama 和 Qwen 系列模型，论文检验架构与规模如何关联功能边界及对扰动的敏感性。</span></p>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2505.18244" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://arxiv.org/abs/2505.18244" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+  </div>
+</article><article class="paper" id="latent-dynamics" aria-labelledby="title-latent-dynamics">
+  <a class="paper-image" href="/assets/images/llm-paper-series/latent-dynamics.webp" data-source="https://arxiv.org/abs/2505.20340" aria-label="Enlarge figure: Latent Trajectory Dynamics in Large Language Models: A Manifold Evolution Framework with Empirical Validation"><img src="/assets/images/llm-paper-series/latent-dynamics.webp" alt="Research figure from Latent Trajectory Dynamics in Large Language Models: A Manifold Evolution Framework with Empirical Validation" width="200" height="138" loading="lazy" decoding="async"></a>
+  <div class="paper-content">
+    <p class="paper-meta"><span class="topic"><span data-lang="en">Representation &amp; Dynamics</span><span data-lang="zh" lang="zh-Hans">表征与动力学</span></span></p>
+    <h3 id="title-latent-dynamics"><a href="https://arxiv.org/abs/2505.20340" target="_blank" rel="noopener noreferrer">Latent Trajectory Dynamics in Large Language Models: A Manifold Evolution Framework with Empirical Validation</a></h3>
+    <p class="authors"><strong>Yukun Zhang</strong>, Qi Dong, Mengkang Li</p>
+    <p class="summary"><span data-lang="en">This work models generation as a trajectory on a semantic manifold. It connects continuity, attractor structure, and topology to text quality, then explores how monitoring latent dynamics can guide adaptive decoding.</span><span data-lang="zh" lang="zh-Hans">这项研究将生成过程建模为语义流形上的轨迹，考察连续性、吸引子结构与拓扑特征和文本质量之间的关系，并进一步探索如何利用隐状态动力学监测来指导自适应解码。</span></p>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2505.20340" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://arxiv.org/abs/2505.20340" target="_blank" rel="noopener noreferrer">arXiv</a></div>
+  </div>
+</article></div>
+  </section>
+  <section class="contact" id="contact" aria-labelledby="contact-title"><h2 id="contact-title"><span data-lang="en">Research &amp; collaboration</span><span data-lang="zh" lang="zh-Hans">研究交流与合作</span></h2><p>Yukun Zhang · <a href="mailto:215010026@link.cuhk.edu.cn">215010026@link.cuhk.edu.cn</a></p></section>
+</main>
+<footer><div class="wrap"><span>LLM Paper Series · Yukun Zhang</span><a href="/"><span data-lang="en">Academic homepage ↗</span><span data-lang="zh" lang="zh-Hans">个人学术主页 ↗</span></a></div></footer>
+<dialog class="image-dialog" aria-labelledby="figure-title"><div class="dialog-head"><p class="dialog-title" id="figure-title"></p><button class="close-dialog" type="button" aria-label="Close figure">×</button></div><img alt=""><p class="figure-source"><a href="#papers" target="_blank" rel="noopener noreferrer"><span data-lang="en">View the source paper ↗</span><span data-lang="zh" lang="zh-Hans">查看原论文 ↗</span></a></p></dialog>
+</body>
+</html>

@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "causalmix",
+    "url": "https://arxiv.org/html/2607.01104v1/pipeline.png",
+    "file": "assets/images/llm-paper-series/causalmix.webp",
+    "width": 1440,
+    "height": 810
+  },
+  {
+    "slug": "hierarchical-alignment",
+    "url": "https://arxiv.org/html/2510.12044v1/pic/3.png",
+    "file": "assets/images/llm-paper-series/hierarchical-alignment.webp",
+    "width": 1440,
+    "height": 766
+  },
+  {
+    "slug": "continuous-time-attention",
+    "url": "https://xueqingzhou.github.io/Continuous-Time-Attention/assets/images/%E6%9E%B6%E6%9E%84%E5%9B%BE.png",
+    "file": "assets/images/llm-paper-series/continuous-time-attention.webp",
+    "width": 1417,
+    "height": 878
+  },
+  {
+    "slug": "pde-diffusion",
+    "url": "https://arxiv.org/html/2510.03272v3/LRA/performance_comparison.png",
+    "file": "assets/images/llm-paper-series/pde-diffusion.webp",
+    "width": 1440,
+    "height": 817
+  },
+  {
+    "slug": "vision-language",
+    "url": "https://arxiv.org/html/2602.15580v1/image/pid.png",
+    "file": "assets/images/llm-paper-series/vision-language.webp",
+    "width": 1412,
+    "height": 651
+  },
+  {
+    "slug": "hierarchical-structure",
+    "url": "https://arxiv.org/html/2505.18244v3/framework.png",
+    "file": "assets/images/llm-paper-series/hierarchical-structure.webp",
+    "width": 1250,
+    "height": 1080
+  },
+  {
+    "slug": "latent-dynamics",
+    "url": "https://arxiv.org/html/2505.20340v3/exp_imgs/Overview.png",
+    "file": "assets/images/llm-paper-series/latent-dynamics.webp",
+    "width": 1388,
+    "height": 1080
+  }
+]
