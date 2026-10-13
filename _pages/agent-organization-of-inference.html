@@ -1,0 +1,116 @@
+---
+layout: null
+title: "The Organization of Inference: Information, Resource Constraints, and AI Production"
+permalink: /research/ai-agent-economics/organization-of-inference/
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Organization of Inference: Information, Resource Constraints, and AI Production — AI Agent Economics</title>
+  <meta name="description" content="The productive value of inference depends on where task information and computational capacity are placed within a workflow. In externally verified software-engineering tasks, direct execution succeeds in 59.6% of assignments at both 12,000- and 24,000-token ceilings, while information-constrained planning rises from 36.2% to 51.2%. A separate strict read-only experiment changes whether the planner sees the task issue: access adds about 16 percentage points at the lower ceiling, and task-informed planning exceeds direct execution by 29.6 points at the higher ceiling. These comparisons show that more capacity has different effects across workflows, depending on which stage receives information and how much resource remains for execution.">
+  <meta name="theme-color" content="#fbf8f6">
+  <meta property="og:title" content="The Organization of Inference: Information, Resource Constraints, and AI Production">
+  <meta property="og:description" content="The productive value of inference depends on where task information and computational capacity are placed within a workflow. In externally verified software-engineering tasks, direct execution succeeds in 59.6% of assignments at both 12,000- and 24,000-token ceilings, while information-constrained planning rises from 36.2% to 51.2%. A separate strict read-only experiment changes whether the planner sees the task issue: access adds about 16 percentage points at the lower ceiling, and task-informed planning exceeds direct execution by 29.6 points at the higher ceiling. These comparisons show that more capacity has different effects across workflows, depending on which stage receives information and how much resource remains for execution.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://yukunzhang1.github.io/research/ai-agent-economics/organization-of-inference/">
+  <link rel="canonical" href="https://yukunzhang1.github.io/research/ai-agent-economics/organization-of-inference/">
+  <meta name="citation_title" content="The Organization of Inference: Information, Resource Constraints, and AI Production">
+
+<meta name="citation_author" content="Zhang, Yukun">
+
+<meta name="citation_author" content="Xu, Kemu">
+
+<meta name="citation_author" content="Chen, Yishen">
+
+<meta name="citation_publication_date" content="2026/09/17">
+
+<meta name="citation_arxiv_id" content="2609.20449">
+
+<meta name="citation_pdf_url" content="https://arxiv.org/pdf/2609.20449">
+
+<meta name="citation_technical_report_institution" content="arXiv">
+
+<meta name="citation_abstract_html_url" content="https://yukunzhang1.github.io/research/ai-agent-economics/organization-of-inference/">
+  <link rel="stylesheet" href="/assets/css/ai-agent-series.css?v=1f417a56ad9d">
+  <script src="/assets/js/ai-agent-series.js?v=d489f9ba1a7e" defer></script>
+</head>
+<body id="top"><a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar"><nav class="wrap" aria-label="Research navigation"><a class="home-link" href="/">Yukun Zhang</a><div class="toplinks"><a href="/Generative-AI-Economic-Series/">Generative AI Economics</a><a href="/research/llm-paper-series/">LLM Paper Series</a><button class="language" type="button" hidden>中文</button></div></nav></header>
+<main class="wrap detail-page" id="main">
+  <p class="breadcrumb"><a href="/research/ai-agent-economics/"><span data-lang="en">← AI Agent Economics</span><span data-lang="zh" lang="zh-Hans">← AI Agent 经济学</span></a></p>
+  <header class="detail-header">
+    <p class="eyebrow"><span data-lang="en">Production</span><span data-lang="zh" lang="zh-Hans">生产组织</span></p>
+    <h1>The Organization of Inference: Information, Resource Constraints, and AI Production</h1>
+    <div class="paper-links"><a href="https://arxiv.org/pdf/2609.20449" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://arxiv.org/abs/2609.20449" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://huggingface.co/papers/2609.20449" target="_blank" rel="noopener noreferrer">Hugging Face</a></div>
+  </header>
+  <figure class="figure-hero">
+    <a class="figure-link" href="/assets/images/ai-agent-economics/p2-hero.webp" data-figure data-title="The Organization of Inference: Information, Resource Constraints, and AI Production" data-source="https://arxiv.org/abs/2609.20449" aria-label="Enlarge research figure"><img src="/assets/images/ai-agent-economics/p2-hero.webp" alt="Workflow organization with a shared logical ledger, and the table of experimental panels and estimands" decoding="async"></a>
+    <figcaption>
+      <b><span data-lang="en">Workflow organization and the experimentally identified margins.</span><span data-lang="zh">工作流组织与实验识别的两个边际。</span></b>
+      <span data-lang="en">Direct execution, issue-hidden planning, and issue-visible planning draw on one shared logical ledger under a fixed ceiling. The resource panels identify the capacity margin; the strict campaign identifies the information margin. Each cell is 40 tasks × 2 backends × 3 replicates (n = 240).</span>
+      <span data-lang="zh">直接执行、隐藏任务的规划、可见任务的规划三种策略，在固定上限下共用同一本逻辑账本。资源面板识别资源边际，严格实验识别信息边际。每格为 40 个任务 × 2 个后端 × 3 次重复（n = 240）。</span>
+    </figcaption>
+  </figure>
+
+  
+  <section class="detail-section">
+    <h2><span data-lang="en">Abstract</span><span data-lang="zh">摘要</span></h2>
+    <div class="abstract">
+      <p data-lang="en">The economic value of inference depends on how capacity and task information are distributed across stages of AI production. We study these organizational margins using controlled workflow experiments on externally verified software-engineering tasks. In two matched resource panels, direct execution records the same success rate of 59.6 percent at logical-token ceilings of 12,000 and 24,000, while success under information-constrained planning rises from 36.2 to 51.2 percent. The planning disadvantage narrows by 15.0 percentage points (95 percent task-cluster bootstrap interval: 4.2 to 25.8). A strict read-only planning campaign varies whether the planner sees the task issue. At 12,000 tokens, issue access raises success by about 16 percentage points over issue-hidden planning. Compared with direct execution, task-informed planning is about 10 points lower at 12,000 tokens; at 24,000 tokens, it shows a 29.6-point advantage. In the resource panels, direct execution uses substantially less than either ceiling, while the planning workflow's binding rate falls from 46.2 to 0.8 percent and downstream execution accounts for 89.9 percent of the increase in total use. Scale determines the capacity available to a system; workflow and information structure shape the productive value realized from it.</p>
+
+      <p data-lang="zh">推理的经济价值，取决于算力与任务信息如何分配到 AI 生产的各个阶段。我们在外部可验证的软件工程任务上，用受控工作流实验研究这两条组织边际。在两个配对的资源面板中，直接执行在 12,000 与 24,000 逻辑 token 上限下的成功率同为 59.6%，而信息受限的规划工作流从 36.2% 升至 51.2%，规划劣势收窄 15.0 个百分点（95% 任务聚类自助区间 4.2 至 25.8）。一项严格只读的规划实验则改变规划者能否看到任务描述：在 12,000 token 下，能看到任务使成功率比隐藏任务的规划高出约 16 个百分点。与直接执行相比，任务已知的规划在 12,000 token 下低约 10 个百分点，而在 24,000 token 下高出 29.6 个百分点。在资源面板中，直接执行的用量远低于两个上限，而规划工作流的触顶率从 46.2% 降至 0.8%，下游执行占总用量增幅的 89.9%。规模决定系统能拿到多少算力，工作流与信息结构决定其中多少转化为产出。</p>
+    </div>
+  </section>
+
+  
+<section class="detail-section">
+    <h2><span data-lang="en">Key findings</span><span data-lang="zh">核心发现</span></h2>
+    <ol class="findings">
+      <li>
+        <span data-lang="en"><strong>A larger budget only pays for some workflows.</strong> Doubling the ceiling leaves direct execution unchanged at 59.6 percent — 143 of 240 assignments in each panel — while planning rises from 36.2 to 51.2 percent. The moderation estimate is +15.0 pp, 95% interval [4.2, 25.8], task sign-flip <em>p</em> = .013.</span>
+        <span data-lang="zh"><strong>更大的预算只对某些工作流有用。</strong>上限翻倍后，直接执行原地不动，仍是 59.6%（每个面板 240 次中成功 143 次），而规划工作流从 36.2% 升到 51.2%。调节效应估计为 +15.0 个百分点，95% 区间 [4.2, 25.8]，任务符号翻转检验 <em>p</em> = .013。</span>
+      </li>
+      <li>
+        <span data-lang="en"><strong>The planning penalty never fully closes.</strong> At 12k, issue-hidden planning costs 23.3 percentage points relative to direct execution (95% interval [−30.4, −15.4]). At 24k the gap is still negative, and that individual contrast is sensitive to the inference procedure at the .05 threshold (sign-flip <em>p</em> = .056).</span>
+        <span data-lang="zh"><strong>规划的惩罚始终没有完全消失。</strong>在 12k 下，隐藏任务的规划相对直接执行损失 23.3 个百分点（95% 区间 [−30.4, −15.4]）。在 24k 下差距仍为负，且该单项对比在 .05 门槛上对推断方法敏感（符号翻转 <em>p</em> = .056）。</span>
+      </li>
+      <li>
+        <span data-lang="en"><strong>Information, not just capacity, makes planning productive.</strong> Within the same strict read-only planning contract, giving the planner the issue raises success by about 16 points at 12k, and the effect survives Holm correction. An issue-hidden planner spends roughly half the budget on a plan that cannot target the actual problem.</span>
+        <span data-lang="zh"><strong>让规划有产出的是信息，而不只是算力。</strong>在同一份严格只读的规划契约下，把任务描述交给规划者，在 12k 下使成功率提高约 16 个百分点，且经 Holm 校正后依然显著。看不到任务的规划者，大约把一半预算花在了一份无法瞄准真实问题的方案上。</span>
+      </li>
+      <li>
+        <span data-lang="en"><strong>The displacement cost is visible in the ledger.</strong> The planning workflow's binding rate falls from 46.2 to 0.8 percent as the ceiling doubles, mean execution use rises from 5,207 to 6,531 logical tokens, and downstream execution accounts for 89.9 percent of the increase in total use. Direct execution has substantial unused capacity at both ceilings.</span>
+        <span data-lang="zh"><strong>挤出成本在账本里看得见。</strong>上限翻倍后，规划工作流的触顶率从 46.2% 降至 0.8%，平均执行用量从 5,207 升至 6,531 个逻辑 token，下游执行占总用量增幅的 89.9%。而直接执行在两个上限下都有大量闲置容量。</span>
+      </li>
+    </ol>
+  </section>
+
+  
+<section class="detail-section">
+    <h2><span data-lang="en">Figures</span><span data-lang="zh">图表</span></h2>
+
+    <figure>
+      <a class="figure-link" href="/assets/images/ai-agent-economics/p2-fig1.webp" data-figure data-title="The Organization of Inference: Information, Resource Constraints, and AI Production" data-source="https://arxiv.org/abs/2609.20449" aria-label="Enlarge research figure"><img src="/assets/images/ai-agent-economics/p2-fig1.webp" alt="Success rates by arm at each ceiling, and paired planning effects with bootstrap intervals" loading="lazy" decoding="async"></a>
+      <figcaption>
+        <b><span data-lang="en">Workflow organization and inference capacity.</span><span data-lang="zh">工作流组织与推理容量。</span></b>
+        <span data-lang="en">Panel (a) shows observed success counts out of 240 per arm on a truncated rate axis; the grey segment at each ceiling spans the planning effect. Panel (b) shows the planning-minus-direct contrast at each ceiling with 95% task-cluster percentile-bootstrap intervals (2,000 resamples), and in its bottom row the moderation estimate of +15.0 pp.</span>
+        <span data-lang="zh">(a) 在截断的比例轴上给出各组 240 次中的成功次数，每个上限处的灰色区段即规划效应。(b) 给出各上限下「规划减直接执行」的对比及 95% 任务聚类分位自助区间（2,000 次重抽样），底行为 +15.0 个百分点的调节效应估计。</span>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <a class="figure-link" href="/assets/images/ai-agent-economics/p2-fig2.webp" data-figure data-title="The Organization of Inference: Information, Resource Constraints, and AI Production" data-source="https://arxiv.org/abs/2609.20449" aria-label="Enlarge research figure"><img src="/assets/images/ai-agent-economics/p2-fig2.webp" alt="Success rates for direct, issue-hidden, and issue-visible arms with the three protocol contrasts" loading="lazy" decoding="async"></a>
+      <figcaption>
+        <b><span data-lang="en">Matching task information with planning inference.</span><span data-lang="zh">让任务信息与规划算力相匹配。</span></b>
+        <span data-lang="en">Strict 12k campaign. Panel (a) uses a truncated axis; the issue-visible arm has 239 observed endpoints from 240 assignments. Panel (b) reports the three protocol contrasts with the missing endpoint set to failure, 95% task-cluster bootstrap intervals, and a shaded ±10 pp equivalence margin.</span>
+        <span data-lang="zh">严格 12k 实验。(a) 使用截断坐标轴，任务可见组在 240 次指派中观测到 239 个端点。(b) 在把缺失端点计为失败的前提下报告三项协议对比，附 95% 任务聚类自助区间，阴影带为 ±10 个百分点的等效边界。</span>
+      </figcaption>
+    </figure>
+  </section>
+
+  
+  <div class="detail-footer"><a href="/research/ai-agent-economics/#papers"><span data-lang="en">← All papers</span><span data-lang="zh" lang="zh-Hans">← 返回论文列表</span></a></div>
+</main><footer><div class="wrap"><span>AI Agent Economics</span><a href="/"><span data-lang="en">Academic homepage ↗</span><span data-lang="zh" lang="zh-Hans">个人学术主页 ↗</span></a></div></footer><dialog class="image-dialog" aria-labelledby="figure-title"><div class="dialog-head"><p class="dialog-title" id="figure-title"></p><button class="close-dialog" type="button" aria-label="Close figure">×</button></div><img alt=""><p class="figure-source"><a href="/research/ai-agent-economics/#papers" target="_blank" rel="noopener noreferrer"><span data-lang="en">View the source paper ↗</span><span data-lang="zh" lang="zh-Hans">查看原论文 ↗</span></a></p></dialog>
+</body></html>

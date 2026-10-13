@@ -9,7 +9,7 @@
     </article>
 
     <article id="ai-agent-economics" class="publications__row">
-      <h3><a href="https://crewmoon.github.io/ai-agent-economics/">AI Agent Economics <span aria-hidden="true">↗</span></a></h3>
+      <h3><a href="https://yukunzhang1.github.io/research/ai-agent-economics/">AI Agent Economics <span aria-hidden="true">↗</span></a></h3>
       <p>Four papers on delegation rights, AI production, execution control, and social welfare.</p>
     </article>
 
