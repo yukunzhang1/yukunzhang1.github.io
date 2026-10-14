@@ -13,3 +13,5 @@ The short bilingual descriptions are editorial research summaries, not verbatim 
 The seven thumbnail figures come from the respective papers or their official project page; no plots or results were generated for decoration. `data/llm-paper-series-figures.json` records their source URLs. WebP copies retain the entire figure. Clicking a thumbnail opens an accessible dialog; without JavaScript, it opens the image directly.
 
 The visual reference is https://beccabai.github.io/: small paper figures, topic/venue metadata, title and authors in compact horizontal rows, a warm neutral background, and muted rose links. The page uses original implementation and the site owner's own research assets.
+
+The header starts directly with the series title and a language toggle. Do not add a top personal/cross-series navigation, an author byline above the title, or a Google Scholar link. Individual papers retain their bibliographic author lists.

@@ -7,3 +7,7 @@
 @media(max-width:720px){.wrap{width:calc(100% - 32px)}.topbar .wrap{gap:6px;align-items:flex-start;padding-block:13px;flex-direction:column}.toplinks{gap:14px;font-size:11px}.language{padding-left:14px;min-height:32px}.hero{padding:36px 0 29px}h1{font-size:40px;letter-spacing:-1.1px}.lead{font-size:17px}.interests{gap:7px 14px;margin-top:23px}.interests span+span{padding-left:14px}.paper{grid-template-columns:136px minmax(0,1fr);gap:16px;padding:16px}.paper-image{min-height:100px;padding:5px}.paper-image img{height:100px}h3{font-size:16px}.authors{font-size:11px}.summary{font-size:13px}.section-head>p{font-size:11px}}
 @media(max-width:480px){.paper{grid-template-columns:1fr;gap:14px}.paper-image{width:170px;min-height:95px}.paper-image img{height:95px}.section-head{gap:10px}h2{font-size:21px}.interests{line-height:1.9}.summary{font-size:14px}.toplinks{gap:13px}.hero{padding-top:29px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}@media print{.topbar,.language,.hero-links,.image-dialog{display:none!important}body{background:white}.wrap{width:100%}.hero{padding-top:0}.paper{break-inside:avoid}.paper-links a{color:#333}}
+
+/* Match the clean headers of the two economics series. */
+.hero{position:relative}.series-language{position:absolute;top:12px;right:0;border:0;padding:4px 0;text-align:right}
+@media(max-width:720px){.series-language{top:4px}}

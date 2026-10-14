@@ -43,10 +43,9 @@ permalink: /research/llm-paper-series/
 </head>
 <body id="top">
 <a class="skip-link" href="#papers">Skip to papers</a>
-<header class="topbar"><nav class="wrap" aria-label="Research navigation"><a class="home-link" href="/">Yukun Zhang</a><div class="toplinks"><a href="/Generative-AI-Economic-Series/">Generative AI Economics</a><a href="https://yukunzhang1.github.io/research/ai-agent-economics/">AI Agent Economics</a><button class="language" type="button" hidden>中文</button></div></nav></header>
 <main class="wrap">
   <section class="hero" aria-labelledby="page-title">
-    <p class="eyebrow">{lang('Research by Yukun Zhang & collaborators','Yukun Zhang 与合作者的研究')}</p>
+    <button class="language series-language" type="button" aria-label="切换至中文" hidden>中文</button>
     <h1 id="page-title">LLM Paper Series</h1>
     <p class="lead">{lang('Understanding and improving language models: how they learn, organize information, and generate reliable responses.','理解并改进语言模型：它们如何学习、组织信息，以及生成可靠的回答。')}</p>
     <div class="hero-links"><a href="#papers">{lang('Explore the papers','阅读系列论文')}</a><a href="mailto:215010026@link.cuhk.edu.cn">{lang('Contact','联系')}</a></div>
