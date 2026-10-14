@@ -10,6 +10,7 @@ The summaries, bilingual abstracts, findings, and figures were transferred from 
 - The four detail pages retain the original bilingual abstracts, findings, and figure captions.
 - Figure files are uncropped WebP copies of the existing PNG figures. No scientific content was redrawn or generated.
 - The page layout and interactions follow the LLM Paper Series: warm background, muted rose accents, figure-and-text rows, bilingual toggle, and image enlargement.
+- The homepage starts directly with the series title and a language toggle. The homepage and all four detail pages omit the top personal/other-series navigation. Detail pages retain their topic label and links back to the series.
 - Authors, dates, Working Paper labels, Poster, and BibTeX controls are omitted from the visible paper listings. Citation metadata retains the original authors and publication dates for indexing.
 
 ## Maintenance

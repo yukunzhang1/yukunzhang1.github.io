@@ -28,8 +28,8 @@ def head(title,path,description,citations=''):
   <script src="/assets/js/ai-agent-series.js?v={revision('assets/js/ai-agent-series.js')}" defer></script>
 </head>'''
 
-NAV=f'''<a class="skip-link" href="#main">Skip to content</a>
-<header class="topbar"><nav class="wrap" aria-label="Research navigation"><a class="home-link" href="/">Yukun Zhang</a><div class="toplinks"><a href="/Generative-AI-Economic-Series/">Generative AI Economics</a><a href="/research/llm-paper-series/">LLM Paper Series</a><button class="language" type="button" hidden>中文</button></div></nav></header>'''
+NAV='<a class="skip-link" href="#main">Skip to content</a>'
+LANGUAGE='<button class="language series-language" type="button" aria-label="切换至中文" hidden>中文</button>'
 FOOT=f'''<footer><div class="wrap"><span>AI Agent Economics</span><a href="/">{lang('Academic homepage ↗','个人学术主页 ↗')}</a></div></footer>'''
 DIALOG=f'''<dialog class="image-dialog" aria-labelledby="figure-title"><div class="dialog-head"><p class="dialog-title" id="figure-title"></p><button class="close-dialog" type="button" aria-label="Close figure">×</button></div><img alt=""><p class="figure-source"><a href="{BASE}#papers" target="_blank" rel="noopener noreferrer">{lang('View the source paper ↗','查看原论文 ↗')}</a></p></dialog>'''
 
@@ -59,7 +59,7 @@ index=front('AI Agent Economics',BASE)+head('AI Agent Economics',BASE,'Four conn
 <body id="top">{NAV}
 <main class="wrap" id="main">
   <section class="hero" aria-labelledby="page-title">
-    <p class="eyebrow">{lang('Research series','研究系列')}</p>
+    {LANGUAGE}
     <h1 id="page-title">AI Agent Economics</h1>
     <p class="lead">{lang('From Delegation Rights to Social Welfare','从委托权到社会福利')}</p>
     <p class="series-overview" id="question">{lang(DATA['overview']['en'],DATA['overview']['zh'])}</p>
@@ -89,6 +89,7 @@ for p in DATA['papers']:
     details=front(p['title'],path)+head(p['title'],path,p['summary']['en'],citations)+f'''
 <body id="top">{NAV}
 <main class="wrap detail-page" id="main">
+  {LANGUAGE}
   <p class="breadcrumb"><a href="{BASE}">{lang('← AI Agent Economics','← AI Agent 经济学')}</a></p>
   <header class="detail-header">
     <p class="eyebrow">{lang(p['topic']['en'],p['topic']['zh'])}</p>

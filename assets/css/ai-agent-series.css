@@ -28,3 +28,9 @@
 .detail-footer{margin:34px 0 40px;padding-top:18px;border-top:1px solid var(--line);font-size:13px}
 .detail-page+[hidden]{display:none}
 @media(max-width:720px){.series-overview{font-size:14px}.detail-page{padding-top:24px}.detail-header h1{font-size:30px}.detail-section p,.detail-section li{font-size:14px}.figure-link{padding:8px}.interests{gap:8px 14px}}
+
+/* Keep the series header focused on its title, as in Generative AI Economics. */
+.hero,.detail-page{position:relative}
+.series-language{position:absolute;top:12px;right:0;border:0;padding:4px 0;text-align:right}
+.breadcrumb{padding-right:80px}
+@media(max-width:720px){.series-language{top:4px}}
