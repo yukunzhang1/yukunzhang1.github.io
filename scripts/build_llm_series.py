@@ -49,7 +49,7 @@ permalink: /research/llm-paper-series/
     <p class="eyebrow">{lang('Research by Yukun Zhang & collaborators','Yukun Zhang 与合作者的研究')}</p>
     <h1 id="page-title">LLM Paper Series</h1>
     <p class="lead">{lang('Understanding and improving language models: how they learn, organize information, and generate reliable responses.','理解并改进语言模型：它们如何学习、组织信息，以及生成可靠的回答。')}</p>
-    <div class="hero-links"><a href="#papers">{lang('Explore the papers','阅读系列论文')}</a><a href="mailto:215010026@link.cuhk.edu.cn">{lang('Contact','联系')}</a><a href="https://scholar.google.com/citations?user=w8XKACEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a></div>
+    <div class="hero-links"><a href="#papers">{lang('Explore the papers','阅读系列论文')}</a><a href="mailto:215010026@link.cuhk.edu.cn">{lang('Contact','联系')}</a></div>
     <div class="interests">{''.join('<span>'+lang(en,zh)+'</span>' for en,zh in [('Data & Training','数据与训练'),('Model Architecture','模型架构'),('Interpretability','可解释性'),('Alignment','对齐')])}</div>
   </section>
   <section id="papers" aria-labelledby="papers-title">
