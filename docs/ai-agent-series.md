@@ -7,6 +7,8 @@ The series is hosted at `/research/ai-agent-economics/` in the personal homepage
 The summaries, bilingual abstracts, findings, and figures were transferred from `CrewMoon/ai-agent-economics` at commit `6efa5860db3c329cf29f629f6875ef8cb311c984`, at the author's request. The original website remains unchanged. Provenance is retained in `data/ai-agent-series.json`.
 
 - The homepage uses the original site's adapted research summaries, not verbatim abstracts.
+- `series_overview` contains the bilingual two-paragraph series introduction (with the author's supplied paper links). It appears before the paper list; its paragraph strings contain intentional, reviewed HTML for links and emphasis.
+- `collaborators` contains the three names, affiliations, and email addresses supplied by the author. The contact section uses three columns on desktop and one column on small screens. The introductory Contact link jumps to this section.
 - The four detail pages retain the original bilingual abstracts, findings, and figure captions.
 - Figure files are uncropped WebP copies of the existing PNG figures. No scientific content was redrawn or generated.
 - The page layout and interactions follow the LLM Paper Series: warm background, muted rose accents, figure-and-text rows, bilingual toggle, and image enlargement.

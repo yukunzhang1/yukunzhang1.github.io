@@ -34,3 +34,13 @@
 .series-language{position:absolute;top:12px;right:0;border:0;padding:4px 0;text-align:right}
 .breadcrumb{padding-right:80px}
 @media(max-width:720px){.series-language{top:4px}}
+
+.series-introduction{padding-bottom:38px;max-width:960px}
+.series-introduction h2{margin-bottom:16px}
+.series-introduction p{font-size:15px;line-height:1.85;color:#5d575a;margin-top:13px}
+.series-introduction strong{font-weight:650;color:var(--ink)}
+.collaborator-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:21px}
+.collaborator h3{font-size:15px;font-weight:650}
+.contact .affiliation{font-size:13px;line-height:1.75;margin:6px 0}
+.collaborator>a{font-size:13px;overflow-wrap:anywhere}
+@media(max-width:720px){.series-introduction p{font-size:14px}.collaborator-grid{grid-template-columns:1fr;gap:22px}}

@@ -55,6 +55,20 @@ def row(p):
 
 def front(title,path):return f'---\nlayout: null\ntitle: {json.dumps(title)}\npermalink: {path}\n---\n'
 
+def series_overview():
+    blocks=[]
+    for code,locale in [('en','en'),('zh','zh-Hans')]:
+        paragraphs=''.join(f'<p>{paragraph}</p>' for paragraph in DATA['series_overview'][code])
+        blocks.append(f'<div data-lang="{code}" lang="{locale}">{paragraphs}</div>')
+    return ''.join(blocks)
+
+def collaborators():
+    return ''.join(f'''<div class="collaborator">
+      <h3>{E(person['name'])}</h3>
+      <p class="affiliation">{lang(person['affiliation']['en'],person['affiliation']['zh'])}</p>
+      <a href="mailto:{E(person['email'],quote=True)}">{E(person['email'])}</a>
+    </div>''' for person in DATA['collaborators'])
+
 index=front('AI Agent Economics',BASE)+head('AI Agent Economics',BASE,'Four connected papers on delegation rights, AI production, execution control, and social welfare.')+f'''
 <body id="top">{NAV}
 <main class="wrap" id="main">
@@ -63,14 +77,18 @@ index=front('AI Agent Economics',BASE)+head('AI Agent Economics',BASE,'Four conn
     <h1 id="page-title">AI Agent Economics</h1>
     <p class="lead">{lang('From Delegation Rights to Social Welfare','从委托权到社会福利')}</p>
     <p class="series-overview" id="question">{lang(DATA['overview']['en'],DATA['overview']['zh'])}</p>
-    <div class="hero-links"><a href="#papers">{lang('Explore the papers','阅读系列论文')}</a><a href="mailto:215010026@link.cuhk.edu.cn">{lang('Contact','联系')}</a>{external('https://scholar.google.com/citations?user=w8XKACEAAAAJ&hl=en','Google Scholar')}</div>
+    <div class="hero-links"><a href="#papers">{lang('Explore the papers','阅读系列论文')}</a><a href="#contact">{lang('Contact','联系')}</a>{external('https://scholar.google.com/citations?user=w8XKACEAAAAJ&hl=en','Google Scholar')}</div>
     <div class="interests"><span>{lang('Delegation rights','委托权')}</span><span>{lang('Production organization','生产组织')}</span><span>{lang('Execution control','执行控制')}</span><span>{lang('Social welfare','社会福利')}</span></div>
+  </section>
+  <section class="series-introduction" id="overview" aria-labelledby="overview-title">
+    <h2 id="overview-title">{lang('Series overview','系列概览')}</h2>
+    {series_overview()}
   </section>
   <section id="papers" aria-labelledby="papers-title">
     <div class="section-head"><h2 id="papers-title">{lang('Research papers','研究论文')}</h2><p>{lang('Four connected papers','四篇相互关联的论文')}</p></div>
     <div class="paper-list">{''.join(row(p) for p in DATA['papers'])}</div>
   </section>
-  <section class="contact" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">{lang('Research & collaboration','研究交流与合作')}</h2><p>Yukun Zhang · <a href="mailto:215010026@link.cuhk.edu.cn">215010026@link.cuhk.edu.cn</a></p></section>
+  <section class="contact" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">{lang('Research & collaboration','研究交流与合作')}</h2><div class="collaborator-grid">{collaborators()}</div></section>
 </main>{FOOT}{DIALOG}
 </body></html>
 '''
