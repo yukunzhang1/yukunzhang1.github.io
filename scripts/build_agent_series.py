@@ -77,7 +77,7 @@ index=front('AI Agent Economics',BASE)+head('AI Agent Economics',BASE,'Four conn
     <h1 id="page-title">AI Agent Economics</h1>
     <p class="lead">{lang('From Delegation Rights to Social Welfare','从委托权到社会福利')}</p>
     <p class="series-overview" id="question">{lang(DATA['overview']['en'],DATA['overview']['zh'])}</p>
-    <div class="hero-links"><a href="#papers">{lang('Explore the papers','阅读系列论文')}</a><a href="#contact">{lang('Contact','联系')}</a>{external('https://scholar.google.com/citations?user=w8XKACEAAAAJ&hl=en','Google Scholar')}</div>
+    <div class="hero-links"><a href="#papers">{lang('Explore the papers','阅读系列论文')}</a><a href="#contact">{lang('Contact','联系')}</a></div>
     <div class="interests"><span>{lang('Delegation rights','委托权')}</span><span>{lang('Production organization','生产组织')}</span><span>{lang('Execution control','执行控制')}</span><span>{lang('Social welfare','社会福利')}</span></div>
   </section>
   <section class="series-introduction" id="overview" aria-labelledby="overview-title">
